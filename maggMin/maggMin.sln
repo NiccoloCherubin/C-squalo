@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maggMin", "maggMin\maggMin.csproj", "{259F6F55-5E4E-40B3-B8ED-FF7E4B20E819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259F6F55-5E4E-40B3-B8ED-FF7E4B20E819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259F6F55-5E4E-40B3-B8ED-FF7E4B20E819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259F6F55-5E4E-40B3-B8ED-FF7E4B20E819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259F6F55-5E4E-40B3-B8ED-FF7E4B20E819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1374B7BD-F83F-47D8-8F9E-399267E73538}
+	EndGlobalSection
+EndGlobal

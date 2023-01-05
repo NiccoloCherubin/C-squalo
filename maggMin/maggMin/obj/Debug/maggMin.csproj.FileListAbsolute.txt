@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\bin\Debug\maggMin.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\bin\Debug\maggMin.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\bin\Debug\maggMin.pdb
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\obj\Debug\maggMin.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\obj\Debug\maggMin.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\obj\Debug\maggMin.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\obj\Debug\maggMin.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\maggMin\maggMin\obj\Debug\maggMin.pdb
