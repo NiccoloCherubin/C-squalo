@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vinaio pt5", "vinaio pt5\vinaio pt5.csproj", "{CE8AB68C-A118-4D01-B43C-9C0C0C12FBAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE8AB68C-A118-4D01-B43C-9C0C0C12FBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8AB68C-A118-4D01-B43C-9C0C0C12FBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8AB68C-A118-4D01-B43C-9C0C0C12FBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8AB68C-A118-4D01-B43C-9C0C0C12FBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67868670-4D70-496B-B0EE-7EFD4DC4900A}
+	EndGlobalSection
+EndGlobal
