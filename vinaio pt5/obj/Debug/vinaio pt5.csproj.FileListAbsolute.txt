@@ -1,0 +1,7 @@
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\bin\Debug\vinaio pt5.exe.config
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\bin\Debug\vinaio pt5.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\bin\Debug\vinaio pt5.pdb
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\obj\Debug\vinaio pt5.csproj.AssemblyReference.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\obj\Debug\vinaio pt5.csproj.CoreCompileInputs.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\obj\Debug\vinaio pt5.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\vinaio pt5\obj\Debug\vinaio pt5.pdb
