@@ -1,0 +1,7 @@
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\bin\Debug\Generatore numeri.exe.config
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\bin\Debug\Generatore numeri.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\bin\Debug\Generatore numeri.pdb
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.csproj.AssemblyReference.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.csproj.CoreCompileInputs.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.pdb
