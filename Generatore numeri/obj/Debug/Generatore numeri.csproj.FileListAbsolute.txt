@@ -5,3 +5,11 @@ E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\G
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.csproj.CoreCompileInputs.cache
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.exe
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Generatore numeri\obj\Debug\Generatore numeri.pdb
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\bin\Debug\Generatore numeri.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\bin\Debug\Generatore numeri.exe
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\bin\Debug\Generatore numeri.pdb
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\obj\Debug\Generatore numeri.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\obj\Debug\Generatore numeri.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\obj\Debug\Generatore numeri.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\obj\Debug\Generatore numeri.exe
+D:\niccolò\SCUOLA\STA(informatica)\rep\Generatore numeri\obj\Debug\Generatore numeri.pdb
