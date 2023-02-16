@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.pdb
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.pdb
