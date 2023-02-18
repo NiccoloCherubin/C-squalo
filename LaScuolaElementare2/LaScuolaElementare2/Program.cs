@@ -10,9 +10,15 @@ namespace LaScuolaElementare
     {
         static void Main(string[] args)
         {
+            /* Visita di'istruzione to do
+             * Capire chi viene in gita e chiede a tutti chi va.
+             * Se sì va, sennò no
+             * stampare elenco di chi viene in gita.
+             * La maestra ha la necessità che l'elenco dei bambini che vanno in gita vada mantenuto fino alla prossima visita d'struzione
+             */
             int opzione, nAlunno = 0, posizione = 0;
-            string ricerca;
-            const int maxOpzione = 4, nAlunni = 3;
+            string ricerca;            
+            const int maxOpzione = 5, nAlunni = 3;
             string[] nomeAlunni = new string[nAlunni];
             //visualizzazione menù
             do
@@ -24,7 +30,8 @@ namespace LaScuolaElementare
                     Console.WriteLine("===Registro di classe===");
                     Console.WriteLine("[1] inserimento");
                     Console.WriteLine("[2] presenti");
-                    Console.WriteLine("[3] ricerca");                    
+                    Console.WriteLine("[3] ricerca");
+                    Console.WriteLine("[4] visualizza alunno");
                     Console.WriteLine("[{0}] esci", maxOpzione);
                     opzione = Convert.ToInt32(Console.ReadLine());
                 } while (opzione < 1 || opzione > maxOpzione);
@@ -76,17 +83,17 @@ namespace LaScuolaElementare
                             bool trovato = false;
                             for (int i = 0; i < nAlunno && !trovato; i++)
                             {
-                                if(ricerca == nomeAlunni[i])
+                                if (ricerca == nomeAlunni[i])
                                 {
                                     trovato = true;
                                     posizione = i + 1;
-                                }                              
-                                
+                                }
+
                             }
                             // verifico se c'è il nome in elenco
                             if (trovato)
                             {
-                                Console.WriteLine("L'alunno {0} è presente ed è alla posizione {1}", ricerca, posizione);
+                                Console.WriteLine("L'alunno {0} è presente", ricerca);                               
                             }
                             else
                             {
@@ -99,9 +106,23 @@ namespace LaScuolaElementare
                             Console.WriteLine("Non hai inserito nome degli alunni. Premere invio per continuare");
                             Console.ReadLine();
                         }
+                        // per vedere se ha usato ricerca                        
+                        break;
+                    case 4:
+                        if (posizione !=0)
+                        {
+                            Console.BackgroundColor = ConsoleColor.White;
+                            Console.WriteLine($"{posizione} {nomeAlunni[posizione-1]}");
+                            Console.ReadLine();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Non hai effettuato ricerca");
+                        }
+                        Console.ReadLine();
                         break;
                 }
             } while (opzione != maxOpzione);     // ripete ciclo finché non esce            
         }
     }
-    }
+}
