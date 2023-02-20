@@ -25,6 +25,10 @@ namespace LaScuolaElementare
             string[] gita = new string[nAlunni]; // per fare elenco di chi va in gita
             string rispostaGita; // risposta se viene in gita o no
             //visualizzazione menù
+            if (true)
+            {
+                Console.WriteLine("Ciao");
+            }
             do
             {
                 // scelta dell'opzione
