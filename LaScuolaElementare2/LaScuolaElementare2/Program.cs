@@ -11,12 +11,6 @@ namespace LaScuolaElementare
     {
         static void Main(string[] args)
         {
-            /* Visita di'istruzione to do
-             * Capire chi viene in gita e chiede a tutti chi va.
-             * Se sì va, sennò no
-             * stampare elenco di chi viene in gita.
-             * La maestra ha la necessità che l'elenco dei bambini che vanno in gita vada mantenuto fino alla prossima visita d'struzione
-             */
             int opzione, nAlunno = 0, posizione = 0;
             int presentiGita = 0; // per contare quanti vengono in gita
             string ricerca;
@@ -25,10 +19,6 @@ namespace LaScuolaElementare
             string[] gita = new string[nAlunni]; // per fare elenco di chi va in gita
             string rispostaGita; // risposta se viene in gita o no
             //visualizzazione menù
-            if (true)
-            {
-                Console.WriteLine("Ciao");
-            }
             do
             {
                 // scelta dell'opzione
