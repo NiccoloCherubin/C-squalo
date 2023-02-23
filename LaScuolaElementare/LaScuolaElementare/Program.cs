@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace LaScuolaElementare
 {
@@ -18,7 +14,10 @@ namespace LaScuolaElementare
                 Console.WriteLine("Mancano {0} nomi da inserire", alunni.Length- (i+1));
             }
             Console.WriteLine("La classe è piena");
-            Console.ReadLine();
+            while (!false)
+            {
+                Console.ReadLine();
+            }
         }
     }
 }
