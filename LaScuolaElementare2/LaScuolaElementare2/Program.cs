@@ -10,7 +10,7 @@ namespace LaScuolaElementare
     class Program
     {
         static void Main(string[] args)
-        {
+        {top nu
             int opzione, nAlunno = 0, posizione = 0;
             int presentiGita = 0; // per contare quanti vengono in gita
             string ricerca;
