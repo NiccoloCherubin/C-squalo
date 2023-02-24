@@ -10,14 +10,15 @@ namespace LaScuolaElementare
     class Program
     {
         static void Main(string[] args)
-        {top nu
+        {
             int opzione, nAlunno = 0, posizione = 0;
             int presentiGita = 0; // per contare quanti vengono in gita
             string ricerca;
-            const int maxOpzione = 6, nAlunni = 3;
+            const int maxOpzione = 7, nAlunni = 3;
             string[] nomeAlunni = new string[nAlunni]; // elenco nomi dei bambini
             string[] gita = new string[nAlunni]; // per fare elenco di chi va in gita
             string rispostaGita; // risposta se viene in gita o no
+            bool fattoGita = false; // per vedere se ha fatto elenco
             //visualizzazione menù
             do
             {
@@ -30,7 +31,8 @@ namespace LaScuolaElementare
                     Console.WriteLine("[2] presenti");
                     Console.WriteLine("[3] ricerca");
                     Console.WriteLine("[4] visualizza alunno");
-                    Console.WriteLine("[5] Chi va in gita");
+                    Console.WriteLine("[5] Fai elenco di chi va in gita");
+                    Console.WriteLine("[6] Visualizza elenco di chi va in gita");
                     Console.WriteLine("[{0}] esci", maxOpzione);
                     opzione = Convert.ToInt32(Console.ReadLine());
                 } while (opzione < 1 || opzione > maxOpzione);
@@ -144,6 +146,19 @@ namespace LaScuolaElementare
                                     presentiGita++;
                                 }
                             }
+                            fattoGita = true;
+                        }
+                        // messagio di errore nel caso di mancato inserimento
+                        else
+                        {
+                            Console.WriteLine("Non hai inserito nome degli alunni. Premere invio per continuare");
+                            Console.ReadLine();
+                        }
+                        break;
+                    case 6:
+                        // verifico se ha fatto l'elenco della gita
+                        if (fattoGita)
+                        {
                             // stampo elenco di chi viene in gita
                             for (int i = 0; i < presentiGita; i++)
                             {
@@ -152,10 +167,11 @@ namespace LaScuolaElementare
                             Console.WriteLine("premere invio per continuare");
                             Console.ReadLine();
                         }
-                        // messagio di errore nel caso di mancato inserimento
+                        // stampo messaggio di errore
                         else
                         {
-                            Console.WriteLine("Non hai inserito nome degli alunni. Premere invio per continuare");
+                            Console.WriteLine("Non hai fatto l'elenco di chi viene in gita");
+                            Console.WriteLine("premere invio per continuare");
                             Console.ReadLine();
                         }
                         break;

@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\bin\Debug\Read.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\bin\Debug\Read.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\bin\Debug\Read.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\obj\Debug\Read.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\obj\Debug\Read.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\obj\Debug\Read.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\obj\Debug\Read.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\Read\Read\obj\Debug\Read.pdb

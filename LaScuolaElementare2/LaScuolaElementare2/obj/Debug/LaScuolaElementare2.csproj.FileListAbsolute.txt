@@ -13,3 +13,11 @@ E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\LaScuolaElementare2\LaScuolaE
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.CoreCompileInputs.cache
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.exe
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\bin\Debug\LaScuolaElementare2.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\LaScuolaElementare2\LaScuolaElementare2\obj\Debug\LaScuolaElementare2.pdb
