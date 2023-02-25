@@ -1,0 +1,7 @@
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\bin\Debug\Scuola Elementare 88.exe.config
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\bin\Debug\Scuola Elementare 88.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\bin\Debug\Scuola Elementare 88.pdb
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\obj\Debug\Scuola Elementare 88.csproj.AssemblyReference.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\obj\Debug\Scuola Elementare 88.csproj.CoreCompileInputs.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\obj\Debug\Scuola Elementare 88.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Scuola Elementare 88\obj\Debug\Scuola Elementare 88.pdb
