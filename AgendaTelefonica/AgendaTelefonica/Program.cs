@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 
 namespace AgendaTelefonica
@@ -10,8 +7,11 @@ namespace AgendaTelefonica
     {
         static void Main(string[] args)
         {
-            const int maxOpzione = 3;
+            bool trovato = false ; // per la ricerca nell'array del nome
+            const int maxOpzione = 4;
             const int nomiMax = 5;
+            int posizione = 0; // posto nell'array di dov'è l'utente di cui si vuole cambiare numero di telefono
+            string risposta; // nome dell'utente a cui cambiare il numero di telefono
             int telefoni = 0; // conta numeri di telefono inseriti
             string[] nomeCognome = new string[nomiMax]; // per inserire nomi e cognomi
             string[] telefono = new string[nomiMax]; // per inserire numeri telefono
@@ -25,7 +25,8 @@ namespace AgendaTelefonica
                     Console.WriteLine("=== Agenda Telefonica ===");
                     Console.WriteLine("[1] Inserimento nome, cogome e numero telefono");
                     Console.WriteLine("[2] Visualizzazione numeri di telefono");
-                    Console.WriteLine("[3] Fine");
+                    Console.WriteLine("[3] Cambio numero di telefoni");
+                    Console.WriteLine("[{0}] Fine", maxOpzione);
                     scelta = Convert.ToInt32(Console.ReadLine());
 
                 } while (scelta < 1 || scelta > maxOpzione);
@@ -46,9 +47,9 @@ namespace AgendaTelefonica
                             Console.WriteLine("Inserisci numero di telefono di {0}. Il prefisso è +39", nomeCognome[telefoni]);
                             telefono[telefoni] = Console.ReadLine();
                             // verifico se ha messo un numero di telefono valido
-                            while (telefono[telefoni].Length != 9)
+                            while (telefono[telefoni].Length != 10)
                             {
-                                Console.WriteLine("Un numero di telefono deve avere 9 cifre");
+                                Console.WriteLine("Un numero di telefono deve avere 10 cifre");
                                 telefono[telefoni] = Console.ReadLine();
                             }
                             telefoni++;                        
@@ -66,11 +67,50 @@ namespace AgendaTelefonica
                         else
                         {
                             Console.WriteLine("Non hai inserito nessun numero di telefono");
+                        }                        
+                        break;
+                    case 3:
+                        // verifico che abbia inserito almeno un numero di telefono
+                        if(telefoni != 0)
+                        {
+                            Console.WriteLine("Inserisci nome del contatto di cui vuoi cambiare il numero telefono");
+                            risposta = Console.ReadLine();
+                            for(int i = 0; i < telefoni && !trovato; i++)
+                            {
+                                if (risposta == telefono[i])
+                                {
+                                    trovato = true;
+                                    posizione = i;
+                                }
+                                    
+                            }
+                            if (!trovato)
+                            {
+                                Console.WriteLine("Inserire il numero di telefono con cui si vuole sostituire quello precedente");
+                                telefono[posizione] = Console.ReadLine();                                
+                                while (telefono[posizione].Length != 10) // controllo se la lunghezza del numero di telefono sia corretta
+                                {
+                                    // stampo messaggio d'errore
+                                    Console.WriteLine("Un numero di telefono deve avere 10 cifre");
+                                    // reinsirimento del numero
+                                    telefono[posizione] = Console.ReadLine();
+                                }
+                            }
+                            else
+                            {
+                                // messaggio di errore
+                                Console.WriteLine("L'utente {0} non è presente nell'elenco", risposta);
+                            }
                         }
-                        Console.WriteLine("Premere invio per continuare");
-                        Console.ReadLine();
+                        else
+                        {
+                            // messaggio d'errore
+                            Console.WriteLine("Non hai inserito nessuno numero di telefono");
+                        }                        
                         break;
                 }
+                Console.WriteLine("Premere invio per continuare");
+                Console.ReadLine();
             }
             while (scelta != maxOpzione); // ripete ciclo finché non preme tasto per uscire
             Console.WriteLine("Buona Gioranata :)"); // stampo messaggio d'addio
