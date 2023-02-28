@@ -72,7 +72,7 @@ namespace AgendaTelefonica
                         break;
                 }
             }
-            while (scelta != 0); // ripete ciclo finché non preme tasto per uscire
+            while (scelta != maxOpzione); // ripete ciclo finché non preme tasto per uscire
             Console.WriteLine("Buona Gioranata :)"); // stampo messaggio d'addio
             Thread.Sleep(500); // per far leggere il messaggio d'addio all'utente
         }

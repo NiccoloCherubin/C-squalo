@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\bin\Debug\matrice.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\bin\Debug\matrice.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\bin\Debug\matrice.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\obj\Debug\matrice.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\obj\Debug\matrice.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\obj\Debug\matrice.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\obj\Debug\matrice.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\matrice\matrice\obj\Debug\matrice.pdb
