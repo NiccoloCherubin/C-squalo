@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace trovaParola
 {
@@ -6,62 +7,49 @@ namespace trovaParola
     {
         static void Main(string[] args)
         {
-            string[] dizionario = new string[3];
-            string buffer = "";
-            int tasto, paroleTrovate = 0;
-            bool trovato;
-            Console.Write("Inserisci una frase: ");
+            int tasto;
+            int indice;
+            char carattere;
+            int[] contatore = new int[28]; // 26 lettere, 1 numeri, 1 altri caratteri
+            Console.WriteLine("Inserisci una frase");
             do
             {
-                // Leggo un carattere dal buffer dello stream di input
                 tasto = Console.Read();
-                // Controllo se è uno spazio o un carriedge return. Controllo poi se il buffer è vuoto
-                if ((tasto == 32 || tasto == 13) && buffer != "")
+                if (Char.IsLetter(Convert.ToChar(tasto)))
                 {
-                    // Trasformo la parola in minuscono e poi controllo se è già presente nel dizionario
-                    buffer = buffer.ToLower();
-                    trovato = false;
-                    for (int i = 0; i < paroleTrovate && !trovato; i++)
-                    {
-                        trovato = dizionario[i] == buffer;
-                    }
-                    // Controllo se la parola non è già presente
-                    if (!trovato)
-                    {
-                        // Controllo se il dizionario è pieno
-                        if (paroleTrovate < dizionario.Length)
-                        {
-                            dizionario[paroleTrovate] = buffer;
-                            // Stampo la parola
-                            Console.WriteLine("Hai inserito la parola {0}", dizionario[paroleTrovate]);
-                            // Aggiungo uno alla lunghezza del dizionario
-                            paroleTrovate++;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Il dizionario è pieno.");
-                            break;
-                        }
-                    }
-                    // Cancello il buffer
-                    buffer = "";
-
+                    indice = tasto - 65;
+                    contatore[indice]++;
                 }
-                // Controllo se è una lettera o un numero
-                else if (Char.IsLetterOrDigit(Convert.ToChar(tasto)))
+                else if (Char.IsDigit(Convert.ToChar(tasto)))
                 {
-                    // Aggiungo il carattere al buffer
-                    buffer += Convert.ToChar(tasto);
+                    contatore[26]++; // per numeri
                 }
-                // Interrompo il ciclo quando arrivo al carriedge return
+                else if (tasto != 32)
+                {
+                    contatore[27]++; // per caratteri speciali
+                }
             } while (tasto != 13);
-            // Controllo se non è stata trovata almeno una parola
-            if (paroleTrovate == 0)
+            for (int i = 0; i < contatore.Length ; i++) // -1 perché sennò mi scriveva la /
             {
-                Console.WriteLine("Non hai inserito aluna parola.");
+                if (contatore[i] != 0)
+                {
+                    if (i < 26)
+                    {
+                        carattere = Convert.ToChar(i + 65);
+                        Console.WriteLine("Hai scritto {0} volte la lettera {1}", contatore[i], carattere);
+                    }
+                    else if (i == 26)
+                    {
+                        Console.WriteLine("Hai scritto {0} volte dei numeri", contatore[i]);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hai scritto {0} volte caratteri speciali", contatore[i]);
+                    }
+                }
             }
-            Console.ReadLine(); // Mi prendo il CR
-            Console.ReadLine(); // Mi prendo il LF e aspetto l'invio per la chiusura del programma
+            Console.ReadLine(); // ripiristana LF
+            Console.ReadLine(); // ferma programma
         }
     }
 }
