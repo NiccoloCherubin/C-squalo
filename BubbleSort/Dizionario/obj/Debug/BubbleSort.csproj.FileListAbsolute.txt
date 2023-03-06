@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\bin\Debug\Dizionario.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\bin\Debug\Dizionario.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\bin\Debug\Dizionario.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\obj\Debug\BubbleSort.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\obj\Debug\Dizionario.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\BubbleSort\Dizionario\obj\Debug\Dizionario.pdb
