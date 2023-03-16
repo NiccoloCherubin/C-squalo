@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\bin\Debug\Conversione Base 2.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\bin\Debug\Conversione Base 2.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\bin\Debug\Conversione Base 2.pdb
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\obj\Debug\Conversione Base 2.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\obj\Debug\Conversione Base 2.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\obj\Debug\Conversione Base 2.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\obj\Debug\Conversione Base 2.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\Conversione Base 2\Conversione Base 2\obj\Debug\Conversione Base 2.pdb

@@ -1,7 +1,0 @@
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\bin\Debug\ripasso1.exe.config
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\bin\Debug\ripasso1.exe
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\bin\Debug\ripasso1.pdb
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\obj\Debug\ripasso1.csproj.AssemblyReference.cache
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\obj\Debug\ripasso1.csproj.CoreCompileInputs.cache
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\obj\Debug\ripasso1.exe
-E:\3F\Grappeggia Niccolò\C#\ripasso1\ripasso1\obj\Debug\ripasso1.pdb

@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\bin\Debug\Alea iacta est.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\bin\Debug\Alea iacta est.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\bin\Debug\Alea iacta est.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\obj\Debug\Alea iacta est.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\obj\Debug\Alea iacta est.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\obj\Debug\Alea iacta est.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\obj\Debug\Alea iacta est.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\Alea iacta est\Alea iacta est\obj\Debug\Alea iacta est.pdb

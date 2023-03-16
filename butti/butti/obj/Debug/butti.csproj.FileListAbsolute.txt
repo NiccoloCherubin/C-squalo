@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\bin\Debug\butti.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\bin\Debug\butti.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\bin\Debug\butti.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\obj\Debug\butti.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\obj\Debug\butti.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\obj\Debug\butti.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\obj\Debug\butti.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\butti\butti\obj\Debug\butti.pdb

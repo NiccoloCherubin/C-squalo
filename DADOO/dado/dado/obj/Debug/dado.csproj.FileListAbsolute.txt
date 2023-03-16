@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\bin\Debug\dado.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\bin\Debug\dado.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\bin\Debug\dado.pdb
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\obj\Debug\dado.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\obj\Debug\dado.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\obj\Debug\dado.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\obj\Debug\dado.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\dado\dado\obj\Debug\dado.pdb

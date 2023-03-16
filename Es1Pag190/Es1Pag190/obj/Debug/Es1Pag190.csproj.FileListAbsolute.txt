@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\bin\Debug\Es1Pag190.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\bin\Debug\Es1Pag190.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\bin\Debug\Es1Pag190.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\obj\Debug\Es1Pag190.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\obj\Debug\Es1Pag190.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\obj\Debug\Es1Pag190.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\obj\Debug\Es1Pag190.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\Es1Pag190\Es1Pag190\obj\Debug\Es1Pag190.pdb

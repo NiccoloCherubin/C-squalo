@@ -1,7 +1,0 @@
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\bin\Debug\@switch.exe.config
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\bin\Debug\@switch.exe
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\bin\Debug\@switch.pdb
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\obj\Debug\switch.csproj.AssemblyReference.cache
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\obj\Debug\switch.csproj.CoreCompileInputs.cache
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\obj\Debug\@switch.exe
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\switch\obj\Debug\@switch.pdb
