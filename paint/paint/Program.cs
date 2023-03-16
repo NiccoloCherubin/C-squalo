@@ -1,55 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ReadKey
+internal class Program
 {
-    class Program
+    struct Studente
     {
-        static void Main(string[] args)
-        {
-            ConsoleKeyInfo tasto;
-            char matita = '.';
-            do
-            {
-                // se metto true memorizza ma non fa vedere i tasti che premi
-                // ritorna valore ConsoleKeyInfo
-                tasto = Console.ReadKey(true);
-                switch (tasto.Key)
-                {
-                    case (ConsoleKey.LeftArrow):
-                        if (Console.CursorLeft != 0)
-                        {
-                            Console.CursorLeft--;
-                        }
-                        break;
-                    case (ConsoleKey.RightArrow):
-                        if (Console.WindowWidth < Console.CursorLeft)
-                        {
-                            Console.CursorLeft++;
-                        }
-                        break;
-                    case (ConsoleKey.UpArrow):
-                        if (Console.CursorLeft != 0 && Console.CursorTop < Console.WindowHeight)
-                        {
-                            Console.CursorTop--;
-                            Console.CursorLeft--;
-                        }
-                        break;
-                    case (ConsoleKey.DownArrow):
-                        Console.CursorTop++;
-                        if (Console.CursorLeft != 0)
-                        {
-                            Console.CursorLeft--;
-                        }
-                        break;
-                }
-                Console.Write(matita);
-            } while (tasto.Key != ConsoleKey.Enter); // diverso da invio
+        public string nome;
+        public string cognome;
+        public int matricola;
+        public char letteraPreferita;
+    }
+    static void Main(string[] args)
+    {
+        Studente[] classe3F = new Studente[23];
+        Studente st1 = new Studente();
+        st1.nome = "Luca";
+        st1.cognome = "Rossi";
+        st1.matricola = 37;
+        st1.letteraPreferita = 'z';
+        Console.WriteLine(st1.nome);
+        Console.WriteLine(st1.cognome);
+        Console.WriteLine(st1.matricola);
+        Console.WriteLine(st1.letteraPreferita);
+        Console.WriteLine("*****************************");
+        Studente st2 = new Studente();
+        st2.nome = "Edoardo";
+        st2.cognome = "Verdi";
+        Console.WriteLine(st2.nome);
+        Console.WriteLine(st2.cognome);
+        Console.WriteLine(st2.matricola);
+        Console.WriteLine(st2.letteraPreferita);
+        classe3F[0] = st1;
+        classe3F[1] = st2;
+        Console.WriteLine("*********************");
+        Console.WriteLine(classe3F[0].matricola);
 
 
-        }
+
+        Console.ReadLine();
     }
 }
