@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\bin\Debug\verifica2.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\bin\Debug\verifica2.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\bin\Debug\verifica2.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\obj\Debug\verifica2.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\obj\Debug\verifica2.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\obj\Debug\verifica2.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\obj\Debug\verifica2.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\verifica2\verifica2\obj\Debug\verifica2.pdb
