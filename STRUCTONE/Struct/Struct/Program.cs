@@ -15,7 +15,7 @@ namespace Struct
             public int prezzo;
         }
         static void Main(string[] args)
-        {           
+        {
             Biblioteca[] libri = new Biblioteca[5];
             for(int i = 0; i < libri.Length; i++)
             {

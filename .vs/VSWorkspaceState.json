@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\STRUCTONE",
+    "\\STRUCTONE\\Struct",
+    "\\STRUCTONE\\Struct\\Struct"
   ],
-  "SelectedNode": "\\LaScuolaElementare2.sln",
   "PreviewInSolutionExplorer": false
 }
