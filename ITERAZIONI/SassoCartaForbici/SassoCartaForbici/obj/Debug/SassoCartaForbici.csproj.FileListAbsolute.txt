@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ale\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.pdb
