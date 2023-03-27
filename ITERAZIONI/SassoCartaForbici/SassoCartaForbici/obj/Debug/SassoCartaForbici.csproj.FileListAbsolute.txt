@@ -13,3 +13,11 @@ E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\SassoCartaForbici\SassoCartaF
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.CoreCompileInputs.cache
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.exe
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\bin\Debug\SassoCartaForbici.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\SassoCartaForbici\SassoCartaForbici\obj\Debug\SassoCartaForbici.pdb

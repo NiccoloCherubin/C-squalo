@@ -9,15 +9,20 @@ namespace SassoCartaForbici
 {
     internal class Program
     {
+        struct Info
+        {
+            public string mossa1;
+            public string mossa2;
+            public string vincitore;
+        }
         static void Main(string[] args)
         {
             string scelta1, scelta2;
             int partite = 0;
             int vinte1 = 0, vinte2 = 0;
-            string buffer; // salvare giocate
             const int maxPartite = 5;
-            string[] giocate = new string[maxPartite];
-            while (true)
+            Info[] giocate = new Info[maxPartite];
+            while (partite < maxPartite)
             {
                 if (partite == maxPartite)
                 {
@@ -25,7 +30,6 @@ namespace SassoCartaForbici
                 }
                 else
                 {
-                    buffer = "";
                     Console.Clear();
                     Console.WriteLine("Partita numero {0}", partite + 1);
                     do
@@ -42,7 +46,7 @@ namespace SassoCartaForbici
                     }
                     else
                     {
-                        buffer += scelta1;
+                        giocate[partite].mossa1 = scelta1;
                         do
                         {
                             Console.ForegroundColor = ConsoleColor.White;
@@ -57,7 +61,8 @@ namespace SassoCartaForbici
                         }
                         else
                         {
-                            buffer += scelta2;
+                            giocate[partite].mossa2 = scelta2;
+
                             Console.ForegroundColor = ConsoleColor.White;
                             if ((scelta1 == "A" && scelta2 == "J") || (scelta1 == "S" && scelta2 == "K") || (scelta1 == "D" && scelta2 == "L"))
                             {
@@ -69,11 +74,13 @@ namespace SassoCartaForbici
                                 {
                                     Console.WriteLine("Ha vinto il giocatore 1");
                                     vinte1++;
+                                    giocate[partite].vincitore = "giocatore 1";
                                 }
                                 else
                                 {
                                     Console.WriteLine("Ha vinto il giocatore 2");
                                     vinte2++;
+                                    giocate[partite].vincitore = "giocatore 2";
                                 }
                             }
                         }
@@ -81,7 +88,6 @@ namespace SassoCartaForbici
                     }
                     Console.WriteLine("Premere invio per continuare");
                     Console.ReadLine();
-                    giocate[partite] = buffer; // salvo la giocata nell'array
                     partite++; // incremento numero di partite
                 }
 
@@ -89,10 +95,10 @@ namespace SassoCartaForbici
             Console.ForegroundColor = ConsoleColor.White;
             if (vinte1 + vinte2 != 0)
             {
-                Console.WriteLine("Sono state giocate {0} partite", partite - 1);
+                Console.WriteLine("Sono state giocate {0} partite", partite);
                 for (int i = 0; i < partite; i++)
                 {
-                    Console.WriteLine("Il giocaotre uno nella partita {0} ha giocato {1} ed il giocatore 2 ha giocatoe {2}", i + 1, giocate[i][0], giocate[i][1]);
+                    Console.WriteLine("Il giocaotre uno nella partita {0} ha giocato {1} ed il giocatore 2 ha giocato {2}. Ed ha vinto il giocatore {3}", i + 1, giocate[i].mossa1, giocate[i].mossa2, giocate[i].vincitore);
                 }
                 if (vinte1 > vinte2)
                 {
