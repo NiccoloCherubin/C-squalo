@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ENUM",
+    "\\ENUM\\Fioreria",
     "\\ITERAZIONI",
     "\\ITERAZIONI\\SassoCartaForbici",
     "\\STRUCTONE",
     "\\STRUCTONE\\Struct",
     "\\STRUCTONE\\Struct\\Struct"
   ],
+  "SelectedNode": "\\ENUM\\Fioreria\\Fioreria.sln",
   "PreviewInSolutionExplorer": false
 }
