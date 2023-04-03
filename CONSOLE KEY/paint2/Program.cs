@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,6 +24,8 @@ namespace Paintsuvisualstudio
             bool fine = true;
             bool ins = false;
             bool canc = false;
+            char[,] schermo = new char[Console.WindowHeight , Console.WindowWidth ];
+            char[,] undo = new char[Console.WindowHeight , Console.WindowWidth ];
             Console.SetCursorPosition(riga, colonna);
             Console.Write(matita);
             do
@@ -40,7 +44,8 @@ namespace Paintsuvisualstudio
                 Console.SetCursorPosition(colonna, riga);
                 if (!ins)
                 {
-                    Console.Write(matita);                    
+                    Console.Write(matita);
+                    schermo[riga, colonna] = matita;
                 }
                 if (canc)
                 {
@@ -102,7 +107,29 @@ namespace Paintsuvisualstudio
                         else
                         {
                             canc = false;
-                        }                        
+                        }
+                        break;
+                    case ConsoleKey.F1:
+                        for (int i = 0; i < schermo.GetLength(0); i++) // righe
+                        {
+                            for (int j = 0; j < schermo.GetLength(1); j++) // colonne
+                            {
+                                undo[i, j] = schermo[i, j];
+                                schermo[i, j] = ' ';
+                            }
+                        }
+                        break;
+                    case ConsoleKey.F2:
+                        Console.Clear();
+                        for (int i = 0; i < schermo.GetLength(0) - 2; i++) // righe. - 2 per non scrollare
+                        {
+                            for (int j = 0; j < schermo.GetLength(1) ; j++) // colonne
+                            {
+                                Console.SetCursorPosition(j, i);
+                                Console.WriteLine(undo[i, j]);
+                                schermo[i, j] = undo[i, j];
+                            }
+                        }
                         break;
                 }
 
