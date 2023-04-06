@@ -24,8 +24,8 @@ namespace Paintsuvisualstudio
             bool fine = true;
             bool ins = false;
             bool canc = false;
-            char[,] schermo = new char[Console.WindowHeight , Console.WindowWidth ];
-            char[,] undo = new char[Console.WindowHeight , Console.WindowWidth ];
+            char[,] schermo = new char[Console.WindowHeight, Console.WindowWidth];
+            char[,] undo = new char[Console.WindowHeight, Console.WindowWidth];
             Console.SetCursorPosition(riga, colonna);
             Console.Write(matita);
             do
@@ -123,7 +123,7 @@ namespace Paintsuvisualstudio
                         Console.Clear();
                         for (int i = 0; i < schermo.GetLength(0) - 2; i++) // righe. - 2 per non scrollare
                         {
-                            for (int j = 0; j < schermo.GetLength(1) ; j++) // colonne
+                            for (int j = 0; j < schermo.GetLength(1); j++) // colonne
                             {
                                 Console.SetCursorPosition(j, i);
                                 Console.WriteLine(undo[i, j]);

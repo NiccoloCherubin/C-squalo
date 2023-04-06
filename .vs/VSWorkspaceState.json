@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ENUM",
+    "\\CONSOLE KEY",
+    "\\CONSOLE KEY\\paint2",
     "\\ENUM\\Fioreria",
-    "\\ITERAZIONI",
-    "\\ITERAZIONI\\SassoCartaForbici",
-    "\\STRUCTONE",
     "\\STRUCTONE\\Struct",
     "\\STRUCTONE\\Struct\\Struct"
   ],
-  "SelectedNode": "\\ENUM\\Fioreria\\Fioreria.sln",
+  "SelectedNode": "\\CONSOLE KEY\\paint2\\paint.sln",
   "PreviewInSolutionExplorer": false
 }
