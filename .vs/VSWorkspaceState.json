@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\CONSOLE KEY",
-    "\\CONSOLE KEY\\paint2",
-    "\\ENUM\\Fioreria",
-    "\\STRUCTONE\\Struct",
-    "\\STRUCTONE\\Struct\\Struct"
+    "\\CONSOLE KEY\\paint2"
   ],
-  "SelectedNode": "\\CONSOLE KEY\\paint2\\paint.sln",
+  "SelectedNode": "\\CONSOLE KEY\\paint2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
