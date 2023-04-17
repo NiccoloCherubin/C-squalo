@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\bin\Debug\TogliSpaziBianchi.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\bin\Debug\TogliSpaziBianchi.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\bin\Debug\TogliSpaziBianchi.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\obj\Debug\TogliSpaziBianchi.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\obj\Debug\TogliSpaziBianchi.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\obj\Debug\TogliSpaziBianchi.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\obj\Debug\TogliSpaziBianchi.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\TogliSpaziBianchi\TogliSpaziBianchi\obj\Debug\TogliSpaziBianchi.pdb
