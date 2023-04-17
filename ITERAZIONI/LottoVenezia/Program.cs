@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
 
 namespace LottoVenezia
 {
@@ -16,40 +12,45 @@ namespace LottoVenezia
         {
             Random random = new Random();
             int[] numeri = new int[5];
+            int[,] matrix = new int[(int)Ruote.Nazionale + 1, 5];
+            int[] fortunelli = new int[5]; // numeri fortunati inseriti dall'utente
             int estratto;
+            int puntata;
             bool esiste = false;
             int i = 0;
-            int[] fortunelli = new int[5]; // numeri giocati            
-            byte scelta; // scelta della ruota
-            byte contatore = 0; // conta numeri indovinati
-            ulong puntata;
+            const int max = (int)Ruote.Nazionale;
+            int cont = 0; // conta numeri indovinati
+            int scelta; // scelta della ruota
             bool valido;
-
-            for (int k = 0; k < (int)Ruote.Nazionale; k++)
+            for (int k = 0; k <= max; k++)
             {
-                Console.WriteLine($"{k} {(Ruote)k}");
+                Console.WriteLine("{0} {1}", k, (Ruote)k);
             }
-                do
-                {
-                Console.WriteLine("Scegli una ruota");
-                scelta = Byte.Parse(Console.ReadLine());
-            }
-            while (scelta < 0 || scelta > (int)Ruote.Nazionale);
-            Console.Clear();
+            // scelta della ruota
             do
             {
-                Console.WriteLine("Numero {0}", i + 1);
-                fortunelli[i] = Int32.Parse(Console.ReadLine());
-                if (fortunelli[i] > 0 && fortunelli[i] < 90)
+                Console.WriteLine("che ruota scegli?");
+                valido = Int32.TryParse(Console.ReadLine(), out scelta);
+            }
+            while (scelta < 0 || scelta > max);
+            Console.Clear();
+            // scelta numeri
+            for (int k = 0; k < fortunelli.Length; k++)
+            {
+                do
                 {
-                    ++i;
+                    Console.WriteLine("Numero {0}", k + 1);
+                    fortunelli[k] = Int32.Parse(Console.ReadLine());
                 }
-            } while (i != 5);
-            i = 0;
-            // inserimento puntata
-            Console.WriteLine("Mettere puntata");
-            valido = ulong.TryParse(Console.ReadLine(), out puntata);
+                while (fortunelli[k] < 0 || fortunelli[k] > 90);
 
+            }
+            // puntata
+            do
+            {
+                Console.WriteLine("Inserisci puntata");
+                puntata = Int32.Parse(Console.ReadLine());
+            } while (puntata < 0);
             for (int k = 0; k <= max; k++)
             {
                 Console.Write(" {0,-10}: ", (Ruote)k); // Scrivo il nome della ruota 
@@ -69,19 +70,58 @@ namespace LottoVenezia
                     {
                         esiste = false;
                     }
-                    if( i == numeri.Length)
+                    if (i == numeri.Length)
                     {
-                        Array.Sort(numeri); // ordino l'array
-                        // stampa array
-                        foreach(int n in numeri)
+                        Array.Sort(numeri); // ordino l'array                        
+                        // riempimento matrice
+                        for (int o = 0; o < matrix.GetLength(1); o++)
                         {
-                            Console.Write("{0} ",n);
+                            matrix[k, o] = numeri[o];
                         }
                     }
                 } while (i < 5);
                 i = 0; // rinizializzazione della variabile
-                Console.WriteLine("\n==========================="); // per saperare gli output
+
+                // stampa matrice                
+                for (int p = 0; p < matrix.GetLength(1); p++)
+                {
+                    Console.Write("{0,2} ", matrix[k, p]);
+                }
+                Console.Write("||");
+                Console.WriteLine("\n=========================== //"); // per separare gli output
+
             }
+            // controlla valori inseriti con quelli della ruota
+            for (int k = 0; k < fortunelli.Length; k++)
+            {
+                for (int o = 0; o < fortunelli.Length; o++)
+                    if (matrix[scelta, o] == fortunelli[k])
+                    {
+                        cont++;
+                    }
+            }
+            switch (cont)
+            {
+                case 0:
+                    puntata *= 0;
+                    break;
+                case 1:
+                    puntata *= 11;
+                    break;
+                case 2:
+                    puntata *= 250;
+                    break;
+                case 3:
+                    puntata *= 4500;
+                    break;
+                case 4:
+                    puntata *= 120000;
+                    break;
+                case 5:
+                    puntata *= 6000000;
+                    break;
+            }
+            Console.WriteLine("Hai vinto {0} euro", puntata);
             Console.ReadLine();
         }
     }
