@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\bin\Debug\DividiFrase.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\bin\Debug\DividiFrase.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\bin\Debug\DividiFrase.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\obj\Debug\DividiFrase.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\obj\Debug\DividiFrase.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\obj\Debug\DividiFrase.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\obj\Debug\DividiFrase.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\DividiFrase\DividiFrase\obj\Debug\DividiFrase.pdb
