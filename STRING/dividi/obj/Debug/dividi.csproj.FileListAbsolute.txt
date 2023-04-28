@@ -1,0 +1,7 @@
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\bin\Debug\dividi.exe.config
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\bin\Debug\dividi.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\bin\Debug\dividi.pdb
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.csproj.AssemblyReference.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.csproj.CoreCompileInputs.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.pdb
