@@ -10,33 +10,65 @@ namespace DividiFrase
     {
         static void Main(string[] args)
         {
-            string frase;            
-            const short caratteri = 34;
-            do
+            string frase;
+            const sbyte max = 80;
+            Console.WriteLine("Inserire frase");
+            frase = Console.ReadLine();
+            while (string.IsNullOrEmpty(frase))
             {
-                Console.WriteLine("Inserisci una frase");
+                Console.WriteLine("Inserita una frase non valida\nReinserie");
                 frase = Console.ReadLine();
-            } while (string.IsNullOrEmpty(frase)); // guardo se dentro frase c'è qualcosa
-            // separazione frase
-            Separa(frase, caratteri);
-            Console.ReadLine();
-        }
-        static public void Separa(string frase, short caratteri)
-        {
-            string buffer = "";
-            for (int i = 0; i < frase.Length; i++)
+            }
+            if (frase.Length > max)
             {
-                if (buffer.Length == caratteri)
+                frase = frase.Substring(0, max);
+            }
+            frase = Taglio(frase);
+            Console.WriteLine(frase);
+
+            Console.ReadLine();
+
+        }
+        static string Taglio(string frase)
+        {
+            string buffer;
+            int c = 0, x = 20;  // conta caratteri dopo lo spazio. 20 = lunghezza predefinita
+            while (frase.Length > x)
+            {
+                if (frase[20] == ' ')
                 {
+                    buffer = frase.Substring(0, x);
                     Console.WriteLine(buffer);
-                    buffer = "";
+                    frase = frase.Remove(0, x);
                 }
                 else
                 {
-                    buffer += frase[i];
+                    while (frase[x] != ' ')
+                    {
+                        x--;
+                        c++;
+                    }
+                    if (c >= x)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        buffer = frase.Substring(0, (x - c));
+                        Console.WriteLine(buffer);
+                        frase = frase.Remove(0, (x - c));
+                    }
                 }
+                if (frase[0] == ' ')
+                {
+                    frase = frase.Remove(0, 1);
+                }
+                x = 20;
+                c = 0;
             }
-            Console.WriteLine(buffer); // scrivo il rimanente
+            return frase;
+
         }
+
     }
 }
