@@ -5,3 +5,11 @@ E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.cspro
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.csproj.CoreCompileInputs.cache
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.exe
 E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dividi\obj\Debug\dividi.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\bin\Debug\dividi.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\bin\Debug\dividi.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\bin\Debug\dividi.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\obj\Debug\dividi.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\obj\Debug\dividi.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\obj\Debug\dividi.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\obj\Debug\dividi.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dividi\obj\Debug\dividi.pdb

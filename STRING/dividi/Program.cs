@@ -5,8 +5,11 @@ namespace BreakFrase
     class Program
     {
         static void Main(string[] args)
-        {
-            const int maxFrase = 80, maxRiga = 20;
+        {            
+            short parole = 0;
+            const sbyte maxParole = sbyte.MaxValue; // dubito possa metterne di più con 80 caratteri massimo 
+            string[] pp = new string[maxParole]; // contiene tutte parole
+            const int maxFrase = 80, maxRiga = 34;
             int line;
             string frase;
             do
@@ -25,19 +28,20 @@ namespace BreakFrase
                 Console.WriteLine("Inserisci un valore corretto: ");
             }
             Console.WriteLine();
-            WriteWrap(frase, line);
+            WriteWrap(frase, line, ref parole, pp);
+            Console.WriteLine(parole);
             Console.ReadLine();
         }
         // Definizione: stampa la frase e la divide in righe di massimo max parole
         // Parametri:
         // Input: stringa contenente la frase, lunghezza massima delle right
-        // Output: void
-        static private void WriteWrap(string frase, int max)
-        {
+        // Output: array di stringhe
+        static private string[] WriteWrap(string frase, int max, ref short parole, string[] pp)
+        {            
             int l = 0;
             foreach (string parola in RemoveSpace(frase).Split(' '))
             {
-                l += parola.Length;
+                l += parola.Length; // l = lunghezza
                 if (l > max)
                 {
                     l = parola.Length;
@@ -45,8 +49,13 @@ namespace BreakFrase
                 }
                 l++;
                 Console.Write("{0} ", parola);
+                pp[parole] = parola; // salvataggio parole
+                parole++; // numero parole
+                
             }
             Console.WriteLine();
+            return pp;
+            
         }
         // Definizione: rimuove gli spazi superflui
         // Parametri:
