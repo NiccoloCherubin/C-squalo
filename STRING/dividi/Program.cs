@@ -29,7 +29,6 @@ namespace BreakFrase
             }
             Console.WriteLine();
             WriteWrap(frase, line, ref parole, pp);
-            Console.WriteLine(parole);
             Console.ReadLine();
         }
         // Definizione: stampa la frase e la divide in righe di massimo max parole
