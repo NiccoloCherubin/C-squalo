@@ -1,121 +1,67 @@
-<<<<<<< HEAD:STRING/DividiFrase/DividiFrase/Program.cs
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace DividiFrase
+namespace BreakFrase
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            const int maxFrase = 80, maxRiga = 20;
+            int line;
             string frase;
-            const sbyte max = 80;
-            Console.WriteLine("Inserire frase");
-            frase = Console.ReadLine();
-            while (string.IsNullOrEmpty(frase))
+            do
             {
-                Console.WriteLine("Inserita una frase non valida\nReinserie");
+                Console.WriteLine("Inserisci la frase: ");
                 frase = Console.ReadLine();
-            }
-            if (frase.Length > max)
+            } while (frase == "");
+            if (frase.Length > maxFrase)
             {
-                frase = frase.Substring(0, max);
+                frase = frase.Remove(maxFrase);
             }
-            frase = Taglio(frase);
             Console.WriteLine(frase);
-
-            Console.ReadLine();
-
-        }
-        static string Taglio(string frase)
-        {
-            string buffer;
-            int c = 0, x = 20;  // conta caratteri dopo lo spazio. 20 = lunghezza predefinita
-            while (frase.Length > x)
+            Console.WriteLine("Inserisci il numero massimo di caratteri per riga: ");
+            while (!int.TryParse(Console.ReadLine(), out line) || line < 1 || line > maxRiga)
             {
-                if (frase[20] == ' ')
+                Console.WriteLine("Inserisci un valore corretto: ");
+            }
+            Console.WriteLine();
+            WriteWrap(frase, line);
+            Console.ReadLine();
+        }
+        // Definizione: stampa la frase e la divide in righe di massimo max parole
+        // Parametri:
+        // Input: stringa contenente la frase, lunghezza massima delle right
+        // Output: void
+        static private void WriteWrap(string frase, int max)
+        {
+            int l = 0;
+            foreach (string parola in RemoveSpace(frase).Split(' '))
+            {
+                l += parola.Length;
+                if (l > max)
                 {
-                    buffer = frase.Substring(0, x);
-                    Console.WriteLine(buffer);
-                    frase = frase.Remove(0, x);
+                    l = parola.Length;
+                    Console.WriteLine();
                 }
-                else
-                {
-                    while (frase[x] != ' ')
-                    {
-                        x--;
-                        c++;
-                    }
-                    if (c >= x)
-                    {
-                        break;
-                    }
-                    else
-                    {
-                        buffer = frase.Substring(0, (x - c));
-                        Console.WriteLine(buffer);
-                        frase = frase.Remove(0, (x - c));
-                    }
-                }
-                if (frase[0] == ' ')
-                {
-                    frase = frase.Remove(0, 1);
-                }
-                x = 20;
-                c = 0;
+                l++;
+                Console.Write("{0} ", parola);
+            }
+            Console.WriteLine();
+        }
+        // Definizione: rimuove gli spazi superflui
+        // Parametri:
+        // Input: stringa contenente la frase
+        // Output: stringa contenente la frase senza spazi
+        static private string RemoveSpace(string frase)
+        {
+            frase = frase.Trim();
+            int i = frase.IndexOf("  ");
+            while (i != -1)
+            {
+                frase = frase.Remove(i, 1);
+                i = frase.IndexOf("  ");
             }
             return frase;
-
-        }
-
-    }
-=======
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DividiFrase
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            string frase;
-
-
-            const short caratteri = 34;
-            do
-            {
-                Console.WriteLine("Inserisci una frase");
-                frase = Console.ReadLine();
-            } while (string.IsNullOrEmpty(frase)); // guardo se dentro frase c'è qualcosa
-            // separazione frase
-            Separa(frase, caratteri);
-            Console.ReadLine();
-        }
-
-        // separa stringa
-        // input: stringa e costante
-        // output: niente
-        static public void Separa(string frase, short caratteri)
-        {
-            string buffer;
-            // divisione frase
-            do
-            {
-                buffer = frase.Substring(0, caratteri);
-                Console.WriteLine(buffer);
-                frase = frase.Remove(0, caratteri);
-            } while (frase.Length > caratteri);
-            buffer = frase.Substring(0, frase.Length);
-            buffer = buffer.Trim(); // togliere spazi in eccesso
-            Console.WriteLine(buffer); // stampa stringa rimanente
         }
     }
->>>>>>> 557802350a9212bad3de96c53d9583ed24b58dfd:STRING/dividi/Program.cs
 }
