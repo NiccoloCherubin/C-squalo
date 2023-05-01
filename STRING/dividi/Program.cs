@@ -5,11 +5,11 @@ namespace BreakFrase
     class Program
     {
         static void Main(string[] args)
-        {            
+        {
             short parole = 0;
             const sbyte maxParole = sbyte.MaxValue; // dubito possa metterne di più con 80 caratteri massimo 
             string[] pp = new string[maxParole]; // contiene tutte parole
-            const int maxFrase = 80, maxRiga = 34;
+            const int maxFrase = 80, maxRiga = 20;
             int line;
             string frase;
             do
@@ -29,14 +29,16 @@ namespace BreakFrase
             }
             Console.WriteLine();
             WriteWrap(frase, line, ref parole, pp);
+            string[] frasi = FrasiMaker(pp, frase, line);
+            Giustifica80(frasi);
             Console.ReadLine();
         }
         // Definizione: stampa la frase e la divide in righe di massimo max parole
         // Parametri:
         // Input: stringa contenente la frase, lunghezza massima delle right
-        // Output: array di stringhe
+        // Output: array di stringhe con tutte le parole
         static private string[] WriteWrap(string frase, int max, ref short parole, string[] pp)
-        {            
+        {
             int l = 0;
             foreach (string parola in RemoveSpace(frase).Split(' '))
             {
@@ -50,11 +52,11 @@ namespace BreakFrase
                 Console.Write("{0} ", parola);
                 pp[parole] = parola; // salvataggio parole
                 parole++; // numero parole
-                
+
             }
             Console.WriteLine();
             return pp;
-            
+
         }
         // Definizione: rimuove gli spazi superflui
         // Parametri:
@@ -70,6 +72,34 @@ namespace BreakFrase
                 i = frase.IndexOf("  ");
             }
             return frase;
+        }
+        static private string[] FrasiMaker(string[] pp, string frase, int line)
+        {
+            string[] frasi = new string[pp.Length];
+            int cont = 0;
+            //frasi[cont] = Convert.ToString(frase[0]);
+            for (int i = 0; i < frasi.Length; i++)
+            {
+                frasi[cont] = frasi[cont] + pp[i] + " ";
+                if (pp[i] == null)
+                {
+                    break;
+                }
+                else if(frasi[cont].Length + pp[i].Length > line)
+                {
+                    cont++;
+                    i++;
+                }
+
+
+            }
+            return frasi;
+        }
+
+        static private string[] Giustifica80(string[] pp)
+        {
+
+            return pp;
         }
     }
 }
