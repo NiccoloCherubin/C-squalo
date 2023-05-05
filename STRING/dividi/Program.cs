@@ -30,7 +30,7 @@ namespace BreakFrase
             Console.WriteLine();
             WriteWrap(frase, line, ref parole, pp);
             string[] frasi = FrasiMaker(pp, frase, line);
-            Giustifica80(frasi);
+            Giustifica80(frasi, line, frasi);
             Console.ReadLine();
         }
         // Definizione: stampa la frase e la divide in righe di massimo max parole
@@ -85,7 +85,7 @@ namespace BreakFrase
                 {
                     break;
                 }
-                else if(frasi[cont].Length + pp[i].Length > line)
+                else if (frasi[cont].Length + pp[i].Length > line)
                 {
                     cont++;
                     i++;
@@ -96,9 +96,23 @@ namespace BreakFrase
             return frasi;
         }
 
-        static private string[] Giustifica80(string[] pp)
+        static private string[] Giustifica80(string[] pp, int line, string[] frasi)
         {
-
+            Console.WriteLine("=========================================");
+            int lunghezza = frasi[0].Length;
+            int x, y;
+            for (int i = 0; i < frasi.Length; i++)
+            {
+                if (frasi[i].Length != lunghezza)
+                {
+                    x = 
+                    Console.SetCursorPosition(x, y);
+                }
+                else
+                {
+                    Console.WriteLine(frasi[i]);
+                }
+            }
             return pp;
         }
     }
