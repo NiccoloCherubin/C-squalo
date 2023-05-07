@@ -84,7 +84,7 @@ namespace AgendaTelefonica
             } while (true);
         }
         // torna struct piena
-        static Agenda[] Riempi(Agenda[] agenda, ref sbyte cont)
+        static void Riempi(Agenda[] agenda, ref sbyte cont)
         {
             string risposta;
             if (cont < agenda.Length)
@@ -111,7 +111,6 @@ namespace AgendaTelefonica
             {
                 Console.WriteLine("Agenda piena");
             }
-            return agenda;
         }
         // stmapa menù
         static void Menu(out int scelta, int opMax)
@@ -152,7 +151,7 @@ namespace AgendaTelefonica
             }
             return -1;
         }
-        static Agenda[] ModificaContatto(Agenda[] agenda, int posizione)
+        static void ModificaContatto(Agenda[] agenda, int posizione)
         {
             string risposta;
             do
@@ -179,15 +178,13 @@ namespace AgendaTelefonica
                         break;
                 }
             } while (risposta != "-1");
-            return agenda;
         }
-        static Agenda[] Elimination(Agenda[] agenda, sbyte cont, int posizone)
+        static void Elimination(Agenda[] agenda, sbyte cont, int posizone)
         {
             for (int i = posizone; i < cont - 1; i++)
             {
                 agenda[i].numero = agenda[i + 1].numero;
             }
-            return agenda;
         }
         static void SgrandaVettore(ref Agenda[] agenda)
         {
