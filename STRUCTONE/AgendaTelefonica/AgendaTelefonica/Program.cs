@@ -22,7 +22,7 @@ namespace AgendaTelefonica
             sbyte cont = 0; // contatore di contatti
             const short max = 100;
             Agenda[] agenda = new Agenda[max];
-            const int opMax = 5;
+            const int opMax = 7;
             string ricercato;
             Riempi(agenda, ref cont);
             do
@@ -68,8 +68,18 @@ namespace AgendaTelefonica
                             {
                                 Console.WriteLine($"Il numero {ricercato} non risulta presente nella rubrica");
                             }
-                                break;
+                            break;
+                        case 5:
+                            Console.WriteLine("Scrivere numero del contatto da cercare nella rubrica");
+                            ricercato = Console.ReadLine();
+                            Console.WriteLine("Il contatto da lei cercato è alla posizione {0} della sua rubrica", Ricerca(agenda, cont, ricercato) + 1);
+                            break;
+                        case 6:
+                            Console.WriteLine("Allargamento avvenuto con successo");
+                            break;
                     }
+                    Console.WriteLine("Premere invio per continuare");
+                    Console.ReadLine();
                 }
             } while (true);
         }
@@ -112,6 +122,8 @@ namespace AgendaTelefonica
             Console.WriteLine("Premere [2] per stampare agenda");
             Console.WriteLine("Premere [3] per modificare un contatto");
             Console.WriteLine("Premere [4] per eliminare un contatto");
+            Console.WriteLine("Premere [5] per cercare un contatto");
+            Console.WriteLine("Premere [6] per espandere rubrica");
             Console.WriteLine($"Premere [{opMax}] per uscire");
 
             do
@@ -128,8 +140,6 @@ namespace AgendaTelefonica
                 Console.WriteLine($"Cognome del contatto {i + 1} : {agenda[i].cognome}");
                 Console.WriteLine($"Numero del contatto {i + 1} : {agenda[i].numero}");
             }
-            Console.WriteLine("Premere invio per continuare");
-            Console.ReadLine();
         }
         static int Ricerca(Agenda[] agenda, sbyte cont, string ricercato)
         {
@@ -173,12 +183,24 @@ namespace AgendaTelefonica
         }
         static Agenda[] Elimination(Agenda[] agenda, sbyte cont, int posizone)
         {
-            for(int i = posizone; i < cont - 1; i++)
+            for (int i = posizone; i < cont - 1; i++)
             {
-                agenda[i].numero = agenda[i+1].numero;
+                agenda[i].numero = agenda[i + 1].numero;
             }
             return agenda;
         }
+        static void SgrandaVettore(ref Agenda[] agenda)
+        {
+            // se devo inserire passo per valore
+            // se voglio creare si usa per out
+            // se voglio cambiare dimensioner per ref
+            Agenda[] c2 = new Agenda[agenda.Length + 1];
+            for (int i = 0; i < agenda.Length; i++)
+            {
+                c2[i] = agenda[i];
+            }
+            agenda = c2;
 
+        }
     }
 }
