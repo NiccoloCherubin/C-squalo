@@ -1,0 +1,15 @@
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\bin\Debug\dDmMyY.exe.config
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\bin\Debug\dDmMyY.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\bin\Debug\dDmMyY.pdb
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\obj\Debug\dDmMyY.csproj.AssemblyReference.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\obj\Debug\dDmMyY.csproj.CoreCompileInputs.cache
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\obj\Debug\dDmMyY.exe
+E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\dDmMyY\obj\Debug\dDmMyY.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\bin\Debug\dDmMyY.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\bin\Debug\dDmMyY.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\bin\Debug\dDmMyY.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\obj\Debug\dDmMyY.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\obj\Debug\dDmMyY.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\obj\Debug\dDmMyY.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\obj\Debug\dDmMyY.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\dDmMyY\obj\Debug\dDmMyY.pdb
