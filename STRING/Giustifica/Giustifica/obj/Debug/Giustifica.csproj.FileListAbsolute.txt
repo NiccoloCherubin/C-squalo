@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\bin\Debug\Giustifica.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\bin\Debug\Giustifica.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\bin\Debug\Giustifica.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\obj\Debug\Giustifica.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\obj\Debug\Giustifica.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\obj\Debug\Giustifica.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\obj\Debug\Giustifica.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Giustifica\Giustifica\obj\Debug\Giustifica.pdb
