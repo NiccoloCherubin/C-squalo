@@ -14,7 +14,7 @@ namespace Struct
             public string autore;
             public int prezzo;
         }
-        // buttini
+        // buttin
         static void Main(string[] args)
         {
             Console.WriteLine("prova");
