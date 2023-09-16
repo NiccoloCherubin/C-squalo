@@ -14,8 +14,10 @@ namespace Struct
             public string autore;
             public int prezzo;
         }
+        // buttini
         static void Main(string[] args)
         {
+            Console.WriteLine("prova");
             Biblioteca[] libri = new Biblioteca[5];
             for(int i = 0; i < libri.Length; i++)
             {
