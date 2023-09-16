@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\bin\Debug\tabellina.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\bin\Debug\tabellina.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\bin\Debug\tabellina.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\obj\Debug\tabellina.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\obj\Debug\tabellina.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\obj\Debug\tabellina.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\obj\Debug\tabellina.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\tabellina\tabellina\obj\Debug\tabellina.pdb

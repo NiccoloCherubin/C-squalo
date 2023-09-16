@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\obj\Debug\Form.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\obj\Debug\Form.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\obj\Debug\Form.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\bin\Debug\Form.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\bin\Debug\Form.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\bin\Debug\Form.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\obj\Debug\Form.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRING\Form\Form\obj\Debug\Form.pdb

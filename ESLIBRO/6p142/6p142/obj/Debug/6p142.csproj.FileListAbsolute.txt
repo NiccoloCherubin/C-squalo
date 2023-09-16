@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\obj\Debug\6p142.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\obj\Debug\6p142.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\obj\Debug\6p142.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\bin\Debug\6p142.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\bin\Debug\6p142.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\bin\Debug\6p142.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\obj\Debug\6p142.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\6p142\6p142\obj\Debug\6p142.pdb

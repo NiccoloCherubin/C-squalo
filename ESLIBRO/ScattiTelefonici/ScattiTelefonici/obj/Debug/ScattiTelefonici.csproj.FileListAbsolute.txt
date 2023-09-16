@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\bin\Debug\ScattiTelefonici.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\bin\Debug\ScattiTelefonici.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\bin\Debug\ScattiTelefonici.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\obj\Debug\ScattiTelefonici.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\obj\Debug\ScattiTelefonici.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\obj\Debug\ScattiTelefonici.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\obj\Debug\ScattiTelefonici.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\ScattiTelefonici\ScattiTelefonici\obj\Debug\ScattiTelefonici.pdb

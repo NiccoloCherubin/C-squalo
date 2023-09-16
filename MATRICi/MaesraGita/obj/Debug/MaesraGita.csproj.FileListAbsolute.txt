@@ -1,7 +1,0 @@
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\bin\Debug\MaesraGita.exe.config
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\bin\Debug\MaesraGita.exe
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\bin\Debug\MaesraGita.pdb
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\obj\Debug\MaesraGita.csproj.AssemblyReference.cache
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\obj\Debug\MaesraGita.csproj.CoreCompileInputs.cache
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\obj\Debug\MaesraGita.exe
-E:\classi informatica\3 F 2022-2023\Enrico Prearo\MaesraGita\obj\Debug\MaesraGita.pdb

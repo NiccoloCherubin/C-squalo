@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\bin\Debug\Fiammiferi.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\bin\Debug\Fiammiferi.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\bin\Debug\Fiammiferi.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\obj\Debug\Fiammiferi.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\obj\Debug\Fiammiferi.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\obj\Debug\Fiammiferi.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\obj\Debug\Fiammiferi.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\ITERAZIONI\Fiammiferi\Fiammiferi\obj\Debug\Fiammiferi.pdb

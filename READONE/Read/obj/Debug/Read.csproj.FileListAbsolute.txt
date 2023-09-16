@@ -1,6 +1,0 @@
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\bin\Debug\Read.exe.config
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\bin\Debug\Read.exe
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\bin\Debug\Read.pdb
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\obj\Debug\Read.csproj.CoreCompileInputs.cache
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\obj\Debug\Read.exe
-E:\classe informatica\3F 22-23\Niccolo_Cherubin_C#\Read\obj\Debug\Read.pdb

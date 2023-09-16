@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\bin\Debug\paint.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\bin\Debug\paint.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\bin\Debug\paint.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\obj\Debug\paint.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\obj\Debug\paint.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\obj\Debug\paint.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\obj\Debug\paint.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\paint\paint\obj\Debug\paint.pdb

@@ -1,0 +1,3 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\puntinisismo\puntinisismo\obj\Debug\puntinisismo.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\puntinisismo\puntinisismo\obj\Debug\puntinisismo.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\puntinisismo\puntinisismo\obj\Debug\puntinisismo.csproj.CoreCompileInputs.cache

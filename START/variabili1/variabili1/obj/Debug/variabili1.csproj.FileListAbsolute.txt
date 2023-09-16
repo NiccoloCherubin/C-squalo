@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\bin\Debug\variabili1.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\bin\Debug\variabili1.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\bin\Debug\variabili1.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\obj\Debug\variabili1.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\obj\Debug\variabili1.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\obj\Debug\variabili1.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\obj\Debug\variabili1.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\variabili1\variabili1\obj\Debug\variabili1.pdb

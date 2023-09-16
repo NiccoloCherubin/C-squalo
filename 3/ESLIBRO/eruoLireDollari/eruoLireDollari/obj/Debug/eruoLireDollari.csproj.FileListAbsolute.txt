@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\bin\Debug\eruoLireDollari.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\bin\Debug\eruoLireDollari.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\bin\Debug\eruoLireDollari.pdb
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\obj\Debug\eruoLireDollari.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\obj\Debug\eruoLireDollari.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\obj\Debug\eruoLireDollari.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\obj\Debug\eruoLireDollari.exe
+D:\niccolò\SCUOLA\STA(informatica)\C#\eruoLireDollari\eruoLireDollari\obj\Debug\eruoLireDollari.pdb

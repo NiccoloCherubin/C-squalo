@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\bin\Debug\bigliettoCilindrata.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\bin\Debug\bigliettoCilindrata.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\bin\Debug\bigliettoCilindrata.pdb
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\obj\Debug\bigliettoCilindrata.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\obj\Debug\bigliettoCilindrata.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\obj\Debug\bigliettoCilindrata.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\obj\Debug\bigliettoCilindrata.exe
-D:\niccolò\SCUOLA\STA(informatica)\C#\bigliettoCilindrata\bigliettoCilindrata\obj\Debug\bigliettoCilindrata.pdb

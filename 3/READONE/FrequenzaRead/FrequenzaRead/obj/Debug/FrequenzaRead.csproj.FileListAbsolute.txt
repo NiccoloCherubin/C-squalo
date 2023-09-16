@@ -1,0 +1,8 @@
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\bin\Debug\FrequenzaRead.exe.config
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\bin\Debug\FrequenzaRead.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\bin\Debug\FrequenzaRead.pdb
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\obj\Debug\FrequenzaRead.csproj.AssemblyReference.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\obj\Debug\FrequenzaRead.csproj.SuggestedBindingRedirects.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\obj\Debug\FrequenzaRead.csproj.CoreCompileInputs.cache
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\obj\Debug\FrequenzaRead.exe
+D:\niccolò\SCUOLA\STA(informatica)\repTrue\FrequenzaRead\FrequenzaRead\obj\Debug\FrequenzaRead.pdb

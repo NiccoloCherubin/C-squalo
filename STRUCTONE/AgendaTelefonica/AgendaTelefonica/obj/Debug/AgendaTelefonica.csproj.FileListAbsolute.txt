@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\bin\Debug\AgendaTelefonica.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\bin\Debug\AgendaTelefonica.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\bin\Debug\AgendaTelefonica.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\STRUCTONE\AgendaTelefonica\AgendaTelefonica\obj\Debug\AgendaTelefonica.pdb

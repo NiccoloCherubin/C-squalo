@@ -1,8 +1,0 @@
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\bin\Debug\Corsini.exe.config
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\bin\Debug\Corsini.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\bin\Debug\Corsini.pdb
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\obj\Debug\Corsini.csproj.AssemblyReference.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\obj\Debug\Corsini.csproj.SuggestedBindingRedirects.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\obj\Debug\Corsini.csproj.CoreCompileInputs.cache
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\obj\Debug\Corsini.exe
-D:\niccolò\SCUOLA\STA(informatica)\repTrue\RIPASSO\Corsini\Corsini\obj\Debug\Corsini.pdb
