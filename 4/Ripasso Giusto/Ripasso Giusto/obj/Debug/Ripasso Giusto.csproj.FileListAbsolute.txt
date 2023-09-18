@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\bin\Debug\Ripasso Giusto.exe.config
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\bin\Debug\Ripasso Giusto.exe
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\bin\Debug\Ripasso Giusto.pdb
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\obj\Debug\Ripasso Giusto.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\obj\Debug\Ripasso Giusto.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\obj\Debug\Ripasso Giusto.exe
+C:\Users\Niccolo\source\repos\Ripasso Giusto\Ripasso Giusto\obj\Debug\Ripasso Giusto.pdb
