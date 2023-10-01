@@ -32,7 +32,7 @@ namespace Ripasso_Giusto
         }
         static void Visualizza(int[] numeriInteri)
         {
-            //numeriInteri[0] = 99;
+            Array.Sort(numeriInteri);
             for (int i = 0; i < numeriInteri.Length; i++)
             {
                 Console.Write(numeriInteri[i] + " ");
