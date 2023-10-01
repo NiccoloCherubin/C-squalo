@@ -14,10 +14,12 @@ namespace Ripasso_Giusto
             int dimensione = 10;
             CreaVettore(out numeriInteri, dimensione);
             Console.WriteLine(numeriInteri.Length);
+            Array.Sort(numeriInteri);
             Visualizza(numeriInteri);
             Console.WriteLine();
             EstendiVettore(ref numeriInteri, 10);
             Console.WriteLine(numeriInteri.Length);
+            Array.Sort(numeriInteri);
             Visualizza(numeriInteri);
             //Console.WriteLine("************");
             //Console.WriteLine(numeriInteri[0]);
@@ -55,7 +57,7 @@ namespace Ripasso_Giusto
             Random random = new Random();
             do
             {
-                estratto = random.Next(1, 50);
+                estratto = random.Next(1, 100);
                 for (int j = 0; j < i && !esiste; j++)
                 {
                     esiste = estratto == numeriInteri[j]; // quando trova numero già presente nell'array esce dal ciclo

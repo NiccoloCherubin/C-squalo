@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\4",
+    "\\4\\Ripasso Giusto",
+    "\\4\\Ripasso Giusto\\Ripasso Giusto"
   ],
+  "SelectedNode": "\\4\\Ripasso Giusto\\Ripasso Giusto\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
