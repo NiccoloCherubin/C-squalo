@@ -29,14 +29,14 @@ namespace Anagrafica
             public DateTime dataNascita;
             public StatoCivile statoCivile;
             public Sesso sesso;
-            public override string ToString() // ridifinito metodo toString, perché comne a tutti
-            {              
-                return string.Format($"Nome:{nome,-5} Cognome:{cognome,4} Data Nascita: {dataNascita.ToShortDateString(),3} Stato Civile: {statoCivile,10} Sesso: {sesso,5}");                                                  
+            public override string ToString() // ridifinito metodo toString, perché comune a tutti
+            {
+                return string.Format($"Nome:{nome,-5} Cognome:{cognome,4} Data Nascita: {dataNascita.ToShortDateString(),3} Stato Civile: {statoCivile,10} Sesso: {sesso,5}");
             }
             static void Main(string[] args)
             {
                 int ultimo = -1;
-                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Exit" };
+                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Exit" };
                 Anagrafica[] anagrafica = new Anagrafica[3];
                 int scelta;
                 do
@@ -70,6 +70,25 @@ namespace Anagrafica
                         {
                             Console.WriteLine("Array vuoto. Fare inserimento");
                         }
+                        break;
+                    case 2:
+                        if (ultimo != -1)
+                        {
+                            Console.WriteLine($"Di chi vuoi cambiare lo stato civile? (inserisci il numero maggiore di zero e minore uguale di {ultimo})");
+                            byte numero;
+
+                            while (!Byte.TryParse(Console.ReadLine(), out numero) || numero > anagrafica.Length || numero < 0)
+                            {
+                                Console.WriteLine("Inserisci qualcosa di corretto");
+                            }
+                            CambioStatoCivile(anagrafica, numero);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Array vuoto. Premere invio per continuare");
+                            Console.ReadLine();
+                        }
+
                         break;
 
                 }
@@ -145,7 +164,7 @@ namespace Anagrafica
                     Console.WriteLine("Continuare (s/n)?");
                     risposta = Console.ReadLine();
                     Console.Clear();
-                } while (risposta != "n" && ultimo != anagrafica.Length -1);
+                } while (risposta != "n" && ultimo != anagrafica.Length - 1);
                 Console.WriteLine("Inserimento Completato. Premere invio per continuare");
             }
             static bool ControlloStringhe(string prova, out string stringa)
@@ -172,6 +191,11 @@ namespace Anagrafica
                     }
                 }
                 return true;
+            }
+            static void CambioStatoCivile(Anagrafica[] anagrafe, int posizione)
+            {
+                Console.WriteLine($"Vecchio stato civile : {anagrafe[posizione].statoCivile}");
+                anagrafe[posizione].statoCivile = (StatoCivile)Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE", 0, 0, ConsoleColor.Magenta, ConsoleColor.Gray, ConsoleColor.Black);
             }
         }
     }
