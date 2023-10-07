@@ -36,7 +36,7 @@ namespace Anagrafica
             static void Main(string[] args)
             {
                 int ultimo = -1;
-                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Exit" };
+                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Età", "Exit" };
                 Anagrafica[] anagrafica = new Anagrafica[3];
                 int scelta;
                 do
@@ -53,7 +53,8 @@ namespace Anagrafica
             }
             static void VerifcaScelta(int scelta, Anagrafica[] anagrafica, ref int ultimo)
             {
-
+                string risposta;
+                int indice;
                 switch (scelta)
                 {
                     case 0:
@@ -87,6 +88,31 @@ namespace Anagrafica
                         {
                             Console.WriteLine("Array vuoto. Premere invio per continuare");
                             Console.ReadLine();
+                        }
+
+                        break;
+                    case 3:
+                        if (ultimo != -1)
+                        {
+                            Console.WriteLine("Inserire codice fiscale della persone della quale si vuole sapere l'età");
+                            while (!ControlloStringhe(Console.ReadLine(), out risposta))
+                            {
+                                Console.WriteLine("Inserire stringa valida");
+                            }
+                            indice = Ricerca(anagrafica, risposta);
+                            if(indice != -1)
+                            {                                
+                                Console.Write($"Età di {anagrafica[indice].nome} {anagrafica[indice].cognome}: ");
+                                Console.WriteLine(Eta(indice, anagrafica));
+                            }
+                            else
+                            {
+                                Console.WriteLine("Persona non presente nell'archivio");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Array vuoto. Premere invio per continuare");
                         }
 
                         break;
@@ -196,6 +222,29 @@ namespace Anagrafica
             {
                 Console.WriteLine($"Vecchio stato civile : {anagrafe[posizione].statoCivile}");
                 anagrafe[posizione].statoCivile = (StatoCivile)Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE", 0, 0, ConsoleColor.Magenta, ConsoleColor.Gray, ConsoleColor.Black);
+            }
+            static int Ricerca(Anagrafica[] anagrafe, string codice)
+            {
+                for (int i = 0; i < anagrafe.Length; i++)
+                {
+                    if (anagrafe[i].codiceFiscale == codice)
+                    {
+                        return i;
+                    }
+                }
+                return -1; // codice fiscale non trovato
+            }
+            static int Eta(int indice, Anagrafica[] anagrafe)
+            {
+                int eta = DateTime.Now.Year - anagrafe[indice].dataNascita.Year - 1; // calcolo età
+                if (DateTime.Now.Month >= anagrafe[indice].dataNascita.Month && DateTime.Now.Day > anagrafe[indice].dataNascita.Day) // verifica del mese e del giorno
+                {
+                    eta++;
+                }
+                return eta;
+
+
+                return 0;
             }
         }
     }
