@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\bin\Debug\Conversioni.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\bin\Debug\Conversioni.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\bin\Debug\Conversioni.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\obj\Debug\Conversioni.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\obj\Debug\Conversioni.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\obj\Debug\Conversioni.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Conversioni\Conversioni\obj\Debug\Conversioni.pdb
