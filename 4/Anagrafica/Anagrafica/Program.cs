@@ -242,9 +242,6 @@ namespace Anagrafica
                     eta++;
                 }
                 return eta;
-
-
-                return 0;
             }
         }
     }
