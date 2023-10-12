@@ -19,7 +19,7 @@ namespace Anagrafica
             Nubile, // no marito
             Coniugato,
             Divorziato,
-            Separto
+            Separato
         }
         struct Anagrafica
         {
@@ -36,7 +36,7 @@ namespace Anagrafica
             static void Main(string[] args)
             {
                 int ultimo = -1;
-                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Età", "Exit" };
+                string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Calcolo età", "Rimozione", "Exit" };
                 Anagrafica[] anagrafica = new Anagrafica[3];
                 int scelta;
                 do
@@ -100,8 +100,8 @@ namespace Anagrafica
                                 Console.WriteLine("Inserire stringa valida");
                             }
                             indice = Ricerca(anagrafica, risposta);
-                            if(indice != -1)
-                            {                                
+                            if (indice != -1)
+                            {
                                 Console.Write($"Età di {anagrafica[indice].nome} {anagrafica[indice].cognome}: ");
                                 Console.WriteLine(Eta(indice, anagrafica));
                             }
@@ -113,8 +113,25 @@ namespace Anagrafica
                         else
                         {
                             Console.WriteLine("Array vuoto. Premere invio per continuare");
-                        }
 
+                        }
+                        break;
+                    case 4:
+                        if (ultimo != -1)
+                        {
+                            Console.WriteLine("Inserire codice fiscale della persona da eliminare");
+                            while (!ControlloStringhe(Console.ReadLine(), out risposta))
+                            {
+                                Console.WriteLine("Inserire stringa valida");
+                            }
+                            indice = Ricerca(anagrafica, risposta);
+                            Elimina(anagrafica, indice, ref ultimo);
+                            Console.WriteLine("Eliminazione completata. Premere invio per continuare");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Anagrafica vuota. Fare inserimento");
+                        }
                         break;
 
                 }
@@ -242,6 +259,14 @@ namespace Anagrafica
                     eta++;
                 }
                 return eta;
+            }
+            static void Elimina(Anagrafica[] anagrafe, int indice, ref int ultimo)
+            {
+                for(int i = indice; i < anagrafe.Length - 1;i++)
+                {
+                    anagrafe[i] = anagrafe[i + 1];
+                }
+                ultimo--;
             }
         }
     }
