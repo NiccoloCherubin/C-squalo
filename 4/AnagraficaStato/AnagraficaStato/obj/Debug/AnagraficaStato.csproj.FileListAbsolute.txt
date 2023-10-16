@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\bin\Debug\AnagraficaStato.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\bin\Debug\AnagraficaStato.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\bin\Debug\AnagraficaStato.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\obj\Debug\AnagraficaStato.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\obj\Debug\AnagraficaStato.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\obj\Debug\AnagraficaStato.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaStato\AnagraficaStato\obj\Debug\AnagraficaStato.pdb
