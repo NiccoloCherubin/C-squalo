@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\obj\Debug\AnagraficaConLista.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\obj\Debug\AnagraficaConLista.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\bin\Debug\AnagraficaConLista.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\bin\Debug\AnagraficaConLista.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\bin\Debug\AnagraficaConLista.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\obj\Debug\AnagraficaConLista.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\AnagraficaConLista\AnagraficaConLista\obj\Debug\AnagraficaConLista.pdb

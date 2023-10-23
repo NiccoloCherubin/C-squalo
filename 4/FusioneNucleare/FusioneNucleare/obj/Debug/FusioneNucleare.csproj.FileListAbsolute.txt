@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\bin\Debug\FusioneNucleare.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\bin\Debug\FusioneNucleare.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\bin\Debug\FusioneNucleare.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\obj\Debug\FusioneNucleare.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\obj\Debug\FusioneNucleare.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\obj\Debug\FusioneNucleare.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\FusioneNucleare\FusioneNucleare\obj\Debug\FusioneNucleare.pdb

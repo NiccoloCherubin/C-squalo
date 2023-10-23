@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusioneNucleare", "FusioneNucleare\FusioneNucleare.csproj", "{C764FD54-CD76-4157-B0D9-E055F7CF23EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C764FD54-CD76-4157-B0D9-E055F7CF23EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C764FD54-CD76-4157-B0D9-E055F7CF23EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C764FD54-CD76-4157-B0D9-E055F7CF23EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C764FD54-CD76-4157-B0D9-E055F7CF23EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65D555B2-3D4F-4606-96C2-CDBC85BCE3D1}
+	EndGlobalSection
+EndGlobal
