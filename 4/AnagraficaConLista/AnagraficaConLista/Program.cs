@@ -12,15 +12,15 @@ namespace AnagraficaStato
     {
         static string path = Environment.CurrentDirectory + "\\" + "logBin" + "\\" + CostruisciData(DateTime.Now.ToShortDateString()) + "logfile.txt";
 
-        public enum Sesso
+        enum Sesso
         {
             Maschio,
             Femmina
         }
-        public enum StatoCivile
+        enum StatoCivile
         {
-            Celibe, // no moglie
-            Nubile, // no marito
+            Celibe,
+            Nubile,
             Coniugato,
             Divorziato,
             Separato
@@ -32,49 +32,39 @@ namespace AnagraficaStato
             public string cognome;
             public DateTime dataNascita;
             public StatoCivile statoCivile;
-            public Sesso sesso;            
-            public override string ToString() // ridifinito metodo toString, perché comune a tutti
+            public Sesso sesso;
+            public override string ToString()
             {
                 return string.Format($"Nome:{nome,-5} Cognome:{cognome,4} Data Nascita: {dataNascita.ToShortDateString(),3} Stato Civile: {statoCivile,10} Sesso: {sesso,5} codice ficsale: {codiceFiscale,2}");
             }
             static void Main(string[] args)
             {
-
-
-
-
-                int ultimo = -1;
+                int nElementi = -1;
                 string[] opzioni = new string[] { "Inserimento", "Visualizza", "Cambia stato civile", "Calcolo età", "Rimozione", "Leggi log", "Cancella Log", "Tutti i log", "Exit" };
-                List<Anagrafica> anagrafica = new List<Anagrafica>();                
+                List<Anagrafica> anagrafica = new List<Anagrafica>();
                 int scelta;
                 do
                 {
                     scelta = Menu(opzioni, "COMUNE DI ROVIGO", 0, 0, ConsoleColor.DarkRed, ConsoleColor.Gray, ConsoleColor.Black);
                     Console.Clear();
-                    VerifcaScelta(scelta, anagrafica, ref ultimo);
+                    VerificaScelta(scelta, anagrafica, ref nElementi);
                     Console.ReadLine();
                 } while (scelta != opzioni.Length - 1);
             }
-            static void VerifcaScelta(int scelta, List<Anagrafica> anagrafica, ref int ultimo)
+            static void VerificaScelta(int scelta, List<Anagrafica> anagrafica, ref int nElementi)
             {
-                // string path = Environment.CurrentDirectory + "\\logfile.txt"; // dove siamo ora + file che creiamo
-
-
-
                 string risposta;
                 int indice;
                 switch (scelta)
                 {
                     case 0:
-                       
-                            Inserimento(anagrafica, ultimo);
-                            ultimo++;                        
-                            ScriviLog(path, anagrafica[ultimo].ToString()); // true = nuovo file, false = va in append
+                        Inserimento(anagrafica, nElementi);
+                        nElementi++;
+                        ScriviLog(path, anagrafica[nElementi].ToString()); // true = nuovo file, false = va in coda
                         break;
                     case 1:
                         if (anagrafica.Count != 0)
                         {
-                            //Visualizza(ultimo, anagrafica);
                             anagrafica.ForEach(x => Console.WriteLine(x.ToString()));
                             Console.WriteLine("Premere invio per continuare");
                             Console.ReadLine();
@@ -87,13 +77,14 @@ namespace AnagraficaStato
                     case 2:
                         if (anagrafica.Count != 0)
                         {
-                            Console.WriteLine($"Di chi vuoi cambiare lo stato civile? (inserisci il numero maggiore di zero e minore uguale di {ultimo})");
-                            byte numero;
-
-                            while (!Byte.TryParse(Console.ReadLine(), out numero) || numero > anagrafica.Count || numero < 0)
+                            int numero;
+                            string cf;
+                            Console.WriteLine("Inserire codice fiscale della persona di cui si vuole cambiare lo stato civile");
+                            while (!ControlloStringhe(Console.ReadLine(), out cf))
                             {
-                                Console.WriteLine("Inserisci qualcosa di corretto");
+                                Console.WriteLine("Inserito codice fiscale errato. Reinserire");
                             }
+                            numero = anagrafica.FindLastIndex(x => x.codiceFiscale == cf);
                             CambioStatoCivile(anagrafica, numero);
                         }
                         else
@@ -111,7 +102,7 @@ namespace AnagraficaStato
                             {
                                 Console.WriteLine("Inserire stringa valida");
                             }
-                            indice = Ricerca(anagrafica, risposta);
+                            indice = anagrafica.FindLastIndex(x => x.codiceFiscale == risposta);
                             if (indice != -1)
                             {
                                 Console.Write($"Età di {anagrafica[indice].nome} {anagrafica[indice].cognome}: ");
@@ -125,19 +116,16 @@ namespace AnagraficaStato
                         else
                         {
                             Console.WriteLine("Array vuoto. Premere invio per continuare");
-
                         }
                         break;
                     case 4:
-                        if (ultimo != -1)
+                        if (anagrafica.Count != 0)
                         {
                             Console.WriteLine("Inserire codice fiscale della persona da eliminare");
                             while (!ControlloStringhe(Console.ReadLine(), out risposta))
                             {
                                 Console.WriteLine("Inserire stringa valida");
                             }
-                            //indice = Ricerca(anagrafica, risposta);                            
-                            //Elimina(anagrafica, indice, ref ultimo);
                             anagrafica.RemoveAt(anagrafica.FindLastIndex(x => x.codiceFiscale == risposta));
                             Console.WriteLine("Eliminazione completata. Premere invio per continuare");
                         }
@@ -146,20 +134,16 @@ namespace AnagraficaStato
                             Console.WriteLine("Anagrafica vuota. Fare inserimento");
                         }
                         break;
-                    case 5:                        
+                    case 5:
                         if (File.Exists(path))
                         {
                             LeggiLog(path);
                         }
-
                         else
                         {
-
                             Console.WriteLine("File di log vuoto");
                             ScriviLog(path, "Provato a leggere log vuoto");
                         }
-
-
                         break;
                     case 6:
                         File.Delete(path);
@@ -167,23 +151,22 @@ namespace AnagraficaStato
                         break;
                     case 7:
                         string[] percorsi = Directory.GetFiles(Environment.CurrentDirectory + "\\" + "logBin", "*.txt"); // cerca solo i txt                        
-                        string[] nomi = ottieniNomi(percorsi);
+                        string[] nomi = OttieniNomi(percorsi);
                         int log = Menu(nomi, "FILE DI LOG", 0, 0, ConsoleColor.Magenta, ConsoleColor.White, ConsoleColor.Black);
                         LeggiLog(percorsi[log]);
                         Console.WriteLine("Premere invio per continuare");
                         break;
-
                 }
             }
             static int Menu(string[] opzioni, string titolo, int x, int y, ConsoleColor coloreTitolo, ConsoleColor coloreTesto, ConsoleColor coloreSfondo)
             {
-                int temp = y; // per salvare valore (mandatory)
+                int temp = y;
                 int scelta;
                 y = temp;
                 Console.Clear();
                 Console.ForegroundColor = coloreTitolo;
                 Console.BackgroundColor = coloreSfondo;
-                Console.SetCursorPosition(x, y++); // cambio posizione al titolo
+                Console.SetCursorPosition(x, y++);
                 Console.WriteLine(titolo);
                 Console.ForegroundColor = coloreTesto;
                 for (int i = 0; i < opzioni.Length; i++)
@@ -193,16 +176,14 @@ namespace AnagraficaStato
                 }
                 Console.SetCursorPosition(x, y);
                 Console.WriteLine("Inserire Opzione");
-                while (!int.TryParse(Console.ReadLine(), out scelta) || scelta < 1 || scelta > opzioni.Length) // per non fare crushare programma
+                while (!int.TryParse(Console.ReadLine(), out scelta) || scelta < 1 || scelta > opzioni.Length)
                 {
                     Console.WriteLine("Inserisci qualcosa di corretto");
                 }
-
-
-                scelta--; // perché l'utente vede le opzioni aumentate di uno
+                scelta--;
                 return scelta;
-            }            
-            static void Inserimento(List<Anagrafica> anagrafica, int ultimo)
+            }
+            static void Inserimento(List<Anagrafica> anagrafica, int nElementi)
             {
                 string risposta;
                 Anagrafica p1 = new Anagrafica();
@@ -216,7 +197,6 @@ namespace AnagraficaStato
                 {
                     Console.WriteLine("Inserire cognome valido");
                 }
-                //sesso e stato civile
                 p1.sesso = (Sesso)Menu(Enum.GetNames(typeof(Sesso)), "SESSO", 0, 0, ConsoleColor.Magenta, ConsoleColor.Gray, ConsoleColor.Black);
                 p1.statoCivile = (StatoCivile)Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE", 0, 0, ConsoleColor.Magenta, ConsoleColor.Gray, ConsoleColor.Black);
                 Console.Clear();
@@ -227,15 +207,13 @@ namespace AnagraficaStato
                 }
                 Console.WriteLine("Inserire codice fiscale");
                 risposta = Console.ReadLine();
-                while (!ControlloInserimento(risposta, anagrafica, ultimo))
+                while (anagrafica.Exists(x => x.codiceFiscale == risposta))
                 {
                     Console.WriteLine("Codice fiscale già presente. Reinserire");
                     risposta = Console.ReadLine();
                 }
                 p1.codiceFiscale = risposta;
-               
                 anagrafica.Add(p1);
-
                 Console.Clear();
                 Console.WriteLine("Inserimento Completato. Premere invio per continuare");
             }
@@ -252,19 +230,6 @@ namespace AnagraficaStato
                     return true;
                 }
             }
-            static bool ControlloInserimento(string codice, List<Anagrafica> codiciFiscali, int ultimo)
-            {
-                //Anagrafica[] codici = codiciFiscali.ToArray();
-                for (int i = 0; i < ultimo; i++)
-                {
-                    //controllo se nell'array è presente un doppione
-                    if (codice == codiciFiscali[i].codiceFiscale)
-                    {
-                        return false;
-                    }
-                }
-                return true;
-            }
             static void CambioStatoCivile(List<Anagrafica> anagrafe, int posizione)
             {
                 Anagrafica p1 = new Anagrafica();
@@ -272,17 +237,6 @@ namespace AnagraficaStato
                 anagrafe.Remove(p1);
                 p1.statoCivile = (StatoCivile)Menu(Enum.GetNames(typeof(StatoCivile)), "STATO CIVILE", 0, 0, ConsoleColor.Magenta, ConsoleColor.Gray, ConsoleColor.Black);
                 anagrafe.Add(p1);
-            }
-            static int Ricerca(List<Anagrafica> anagrafe, string codice)
-            {
-                for (int i = 0; i < anagrafe.Count; i++)
-                {
-                    if (anagrafe[i].codiceFiscale == codice)
-                    {
-                        return i;
-                    }
-                }
-                return -1; // codice fiscale non trovato
             }
             static int Eta(int indice, List<Anagrafica> anagrafe)
             {
@@ -293,46 +247,40 @@ namespace AnagraficaStato
                 }
                 return eta;
             }
-            
         }
-        // scrivere su disco
-        // dire dove si vuole salvarlo (patname = percorso file)
         static void ScriviLog(string path, string stringa)
         {
             // ogni stringa accodata a quella prima
-            StreamWriter fuso;
+            StreamWriter fileLog;
             if (File.Exists(path))
             {
-                fuso = new StreamWriter(path, true); // ricostruisce da capo ogni volta il file di testo. Con true va in append
+                fileLog = new StreamWriter(path, true); // ricostruisce da capo ogni volta il file di testo. Con true va in coda
             }
             else
             {
-                fuso = new StreamWriter(path); // ricostruisce da capo ogni volta il file di testo.
+                fileLog = new StreamWriter(path); // ricostruisce da capo ogni volta il file di testo.
             }
-            fuso.WriteLine($"{DateTime.Now} {stringa}");
+            fileLog.WriteLine($"{DateTime.Now} {stringa}");
             // chiudere file            
-            fuso.Close();
+            fileLog.Close();
         }
-
-
         static void LeggiLog(string path)
         {
-            StreamReader fuso = File.OpenText(path);
+            StreamReader fileLog = File.OpenText(path);
             string linea;
-            linea = fuso.ReadLine();
+            linea = fileLog.ReadLine();
             while (linea != null)
             {
                 Console.WriteLine(linea);
-                linea = fuso.ReadLine();
+                linea = fileLog.ReadLine();
             }
-            fuso.Close();
+            fileLog.Close();
         }
         static string CostruisciData(string dataConSlash)
         {
             return dataConSlash.Replace('/', '-');
         }
-
-        static string[] ottieniNomi(string[] percorsi)
+        static string[] OttieniNomi(string[] percorsi)
         {
             string[] nomi = new string[percorsi.Length];
             for (int i = 0; i < nomi.Length; i++)
