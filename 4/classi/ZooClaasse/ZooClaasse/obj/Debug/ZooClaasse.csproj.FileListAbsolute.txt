@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\bin\Debug\ZooClaasse.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\bin\Debug\ZooClaasse.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\bin\Debug\ZooClaasse.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\obj\Debug\ZooClaasse.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\obj\Debug\ZooClaasse.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\obj\Debug\ZooClaasse.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\ZooClaasse\ZooClaasse\obj\Debug\ZooClaasse.pdb
