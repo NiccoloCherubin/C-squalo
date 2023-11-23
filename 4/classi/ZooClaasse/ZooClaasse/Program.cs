@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -50,7 +51,16 @@ namespace ZooClaasse
                     if (animali.Count <= max)
                     {
                         //inserimento
-                        animali.Add(Inserimento());
+                        AnimaleDomestico animale = new AnimaleDomestico();
+                        //animali.Add(Inserimento());
+                        
+                        animale.SetSpecie(InserimentoStringa("specie"));
+                        animale.SetRazza(InserimentoStringa("razza"));
+                        animale.SetRazza(InserimentoStringa("verso"));
+                        animale.SetQuantita(InserimentoIntero("quantità"));
+                        animale.SetStatoNutrizione(InserimentoStato());
+
+                        animali.Add(animale);
                     }
                     break;
                 case 1:
@@ -66,26 +76,71 @@ namespace ZooClaasse
                     break;
             }
         }
-        static AnimaleDomestico Inserimento()
+        static int InserimentoIntero(string campo)
         {
-            AnimaleDomestico supp = new AnimaleDomestico();
             int supportoQuantita;
-            Console.WriteLine("Inserire specie");
-            supp.SetSpecie(Console.ReadLine());
-            Console.WriteLine("Inserire razza");
-            supp.SetRazza(Console.ReadLine());
-            Console.WriteLine("Inserire cibo che mangia l'animale");
-            supp.SetCibo(Console.ReadLine());
-            Console.WriteLine("Inserire verso che fa l'animale");
-            supp.SetVerso(Console.ReadLine());
-            Console.WriteLine("Inserire quantità della tipologia di animale");
+            Console.WriteLine($"Inserire {campo} dell'animale");
             while (!int.TryParse(Console.ReadLine(), out supportoQuantita) || supportoQuantita < 0)
             {
                 Console.WriteLine("Inserire qualcosa di corretto");
             }
-            supp.SetQuantita(supportoQuantita);
-            supp.SetStatoNutrizione((Mangiato)Menu(Enum.GetNames(typeof(Mangiato)), "STATO NUTRIZIONE DELL'ANIMALE"));
-            return supp;
+            return supportoQuantita;
+        }
+        static Mangiato InserimentoStato()
+        {
+            Mangiato mangiato = new Mangiato();
+            bool valido = false;            
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Stato nutrizione animale");
+                    Console.WriteLine("mangiato");
+                    Console.WriteLine("non_può_mangiare");
+                    Console.WriteLine("deve_mangiare");
+                    if (!Enum.TryParse(Console.ReadLine(), out mangiato))
+                    {
+                        valido = false;
+                        throw new Exception("Valore Inserito non valido");
+                    }
+                    else
+                    {
+                        valido = true;
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Premere invio per continuare");
+                }
+
+            } while (!valido);
+            return mangiato;
+
+        }
+        static string InserimentoStringa(string campo)
+        {
+            Console.WriteLine($"Inserire {campo} dell'animale");
+            string stringa;
+            stringa = Console.ReadLine();
+            while (String.IsNullOrEmpty(stringa.Trim()) ||!StringaValida(stringa))
+            {
+                Console.WriteLine("Reinserire");
+                stringa = Console.ReadLine();
+            }
+            return stringa;
+        }
+        static bool StringaValida(string stringa)
+        {
+            for(int i = 0; i < stringa.Length; i++)
+            {
+                if (char.IsDigit(stringa[i]))
+                {
+                    return false; // stringa non valida
+                }
+            }
+            return true; // stringa valida
         }
     }
 }
