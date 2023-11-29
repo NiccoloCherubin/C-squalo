@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\bin\Debug\slots.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\bin\Debug\slots.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\bin\Debug\slots.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\obj\Debug\slots.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\obj\Debug\slots.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\obj\Debug\slots.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\slots\slots\obj\Debug\slots.pdb
