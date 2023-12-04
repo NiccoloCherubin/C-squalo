@@ -1,0 +1,21 @@
+D:\4F\cherubin niccolo\Ospedale\Ospedale\bin\Debug\Ospedale.exe.config
+D:\4F\cherubin niccolo\Ospedale\Ospedale\bin\Debug\Ospedale.exe
+D:\4F\cherubin niccolo\Ospedale\Ospedale\bin\Debug\Ospedale.pdb
+D:\4F\cherubin niccolo\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.AssemblyReference.cache
+D:\4F\cherubin niccolo\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.CoreCompileInputs.cache
+D:\4F\cherubin niccolo\Ospedale\Ospedale\obj\Debug\Ospedale.exe
+D:\4F\cherubin niccolo\Ospedale\Ospedale\obj\Debug\Ospedale.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\bin\Debug\Ospedale.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\bin\Debug\Ospedale.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\bin\Debug\Ospedale.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\obj\Debug\Ospedale.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Ospedale\Ospedale\obj\Debug\Ospedale.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\bin\Debug\Ospedale.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\bin\Debug\Ospedale.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\bin\Debug\Ospedale.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\obj\Debug\Ospedale.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\obj\Debug\Ospedale.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Ospedale\Ospedale\obj\Debug\Ospedale.pdb
