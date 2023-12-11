@@ -52,7 +52,7 @@ namespace Ospedale
         }
         public string Anagrafica(paziente paziente)
         {
-            return string.Format($"nome: {paziente.nome} cognome: {paziente.cognome} reparto: {paziente.reparto} temperatura: {paziente.temperatura}°C");
+            return string.Format($"nome: {paziente.nome}, cognome: {paziente.cognome}, reparto: {paziente.reparto}, temperatura: {paziente.temperatura}°C");
         }
     }
 }

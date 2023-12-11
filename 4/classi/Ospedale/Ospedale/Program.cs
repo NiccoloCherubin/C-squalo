@@ -14,10 +14,22 @@ namespace Ospedale
         static void Main(string[] args)
         {
 
-            string[] opzioni = { "inserimento", "visualizzazione di tutti i pazienti", "cambio temperatura", "Exit" };
+            string[] opzioni = { "inserimento", "visualizzazione di tutti i pazienti", "cambio temperatura", "visualizza singolo paziente", "Exit" };
             int scelta;
             // creazione dei reparti
             CreazioneReparti();
+            // pazienti di deafault
+            reparti[0].Aggiungi(new paziente("mario", "rossi", repartiDisponibili[0]));
+            reparti[0].Aggiungi(new paziente("mario", "verdi", repartiDisponibili[0]));
+            reparti[0].Aggiungi(new paziente("mario", "bianchi", repartiDisponibili[0]));
+            reparti[1].Aggiungi(new paziente("Luca", "bianchi", repartiDisponibili[1]));
+            reparti[1].Aggiungi(new paziente("Luca", "rossi", repartiDisponibili[1]));
+            reparti[1].Aggiungi(new paziente("Luca", "verdi", repartiDisponibili[1]));
+            reparti[1].Aggiungi(new paziente("Luca", "verdi", repartiDisponibili[1]));
+            reparti[2].Aggiungi(new paziente("Matteo", "verdi", repartiDisponibili[2]));
+            reparti[2].Aggiungi(new paziente("Matteo", "rossi", repartiDisponibili[2]));
+            reparti[2].Aggiungi(new paziente("Matteo", "bianchi", repartiDisponibili[2]));
+
             do
             {
                 Console.Clear();
@@ -49,7 +61,8 @@ namespace Ospedale
         }
         static void VerificaScelta(int scelta)
         {
-            int sceltaReparto;
+            int sceltaReparto = 0;
+            int sceltaPaziente;
             switch (scelta)
             {
                 case 0:
@@ -80,8 +93,8 @@ namespace Ospedale
                     for (int i = 0; i < reparti.Length; i++)
                     {
                         reparti[i].GetLista().ForEach(x => Console.WriteLine(
-                            $"nome: {x.GetNome()} " +
-                            $"cognome: {x.GetCognome()}" +
+                            $"nome: {x.GetNome()}, " +
+                            $"cognome: {x.GetCognome()}," +
                             $" reparto: {x.GetReparto()}," +
                             $" temperatura {x.GetTemperatura()}"
                             )
@@ -96,31 +109,90 @@ namespace Ospedale
                         break;
                     }
 
-                    sceltaReparto = Menu(repartiDisponibili, "Reparti Disponibili");
-                    if (reparti[sceltaReparto].Vuoto())
-                    {
-                        Console.WriteLine("Il reparto scelto è vuoto");
-                        break;
-                    }
-                    int sceltaPaziente;
-                    sceltaPaziente = Menu(arrayStringheDiPazienti(reparti[sceltaReparto].GetLista()), "SCELTA PAZIENTE");
+                    sceltaPaziente = SceltaPaziente(ref sceltaReparto);
+
                     try
                     {
                         reparti[sceltaReparto].GetPaziente(sceltaPaziente).SetTemperatura(InserimentoDouble("temperatura"));
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         Console.WriteLine(ex.Message);
                     }
                     break;
+                case 3:
+                    if (RepartiVuoti(reparti))
+                    {
+                        Console.WriteLine("Tutti reparti sono vuoti");
+                        break;
+                    }
+                    ConsoleKeyInfo tasto;
+                    sceltaPaziente = SceltaPaziente(ref sceltaReparto);
+                    //errore
+                    if (sceltaPaziente == -1)
+                    {
+                        Console.WriteLine("scelta non valida");
+                        break;
+                    }
+                    paziente supporto = reparti[sceltaReparto].GetPaziente(sceltaPaziente);
+                    int originale = sceltaPaziente;
+                    do
+                    {
+                        Console.WriteLine("esc = exit, [->] = successivo [<-] = precedente, [r] reset");
+                        Console.WriteLine(supporto.Anagrafica(supporto));
+                        tasto = Console.ReadKey();
+                        if (tasto.Key == ConsoleKey.RightArrow)
+                        {
+                            try
+                            {
+                                supporto = reparti[sceltaReparto].Next(sceltaPaziente);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                            }
+                            sceltaPaziente++;
+                        }
+                        else if (tasto.Key == ConsoleKey.LeftArrow)
+                        {
+                            try
+                            {
+                                supporto = reparti[sceltaReparto].Prec(sceltaPaziente);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                            }
+                            sceltaPaziente--;
+                        }
+                        else if(tasto.Key == ConsoleKey.R)
+                        {
+                            sceltaPaziente = originale;
+                        }
+                    } while (tasto.Key != ConsoleKey.Escape);
+                    Console.WriteLine("ffine. Premere invio per continuare");
+                    Console.ReadLine();
+                    break;
             }
+
             Console.WriteLine("Premere invio per continuare");
             Console.ReadLine();
+        }
+        static int SceltaPaziente(ref int sceltaReparto)
+        {
+            sceltaReparto = Menu(repartiDisponibili, "Reparti Disponibili");
+            if (reparti[sceltaReparto].Vuoto())
+            {
+                Console.WriteLine("Il reparto scelto è vuoto");
+                return -1;
+            }
+            int sceltaPaziente;
+            return sceltaPaziente = Menu(arrayStringheDiPazienti(reparti[sceltaReparto].GetLista()), "SCELTA PAZIENTE");
         }
         static bool RepartiVuoti(Reparti[] reparti)
         {
             bool vuoti = false; //nessun vuoti
-            for(int i = 0; i < reparti.Length; i++)
+            for (int i = 0; i < reparti.Length; i++)
             {
                 if (reparti[i].Vuoto())
                 {
@@ -140,10 +212,9 @@ namespace Ospedale
             {
                 //array[i] = pazienti[i].ToString();
                 array[i] = $"nome: {pazienti[i].GetNome()} " +
-                    $"cognome: {pazienti[i].GetCognome()}"+
+                    $"cognome: {pazienti[i].GetCognome()}" +
                     $"temperatura: {pazienti[i].GetTemperatura()} °C"
                     ;
-                 
             }
             return array;
         }

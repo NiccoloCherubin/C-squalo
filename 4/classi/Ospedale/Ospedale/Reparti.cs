@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ospedale
 {
+
     internal class Reparti
     {
         termometro termometro;
@@ -42,8 +43,10 @@ namespace Ospedale
         {
             return pazientiList.Count;
         }
+        //torna la copia della lista dei pazienti del reparto
         public List<paziente> GetLista()
         {
+
             return pazientiList.ToList();
         }
 
@@ -62,6 +65,16 @@ namespace Ospedale
             {
                 return true; // vuoto
             }
+        }
+        public paziente Next(int scelta)
+        {
+            scelta++;
+            return pazientiList[scelta];
+        }
+        public paziente Prec(int scelta)
+        {
+            scelta--;
+            return pazientiList[scelta];
         }
     }
 }
