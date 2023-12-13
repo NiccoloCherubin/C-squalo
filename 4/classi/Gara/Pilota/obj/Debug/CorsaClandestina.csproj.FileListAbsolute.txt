@@ -1,0 +1,14 @@
+F:\4F\cherubin niccolo\Pilota\Pilota\bin\Debug\Pilota.exe.config
+F:\4F\cherubin niccolo\Pilota\Pilota\bin\Debug\Pilota.exe
+F:\4F\cherubin niccolo\Pilota\Pilota\bin\Debug\Pilota.pdb
+F:\4F\cherubin niccolo\Pilota\Pilota\obj\Debug\CorsaClandestina.csproj.AssemblyReference.cache
+F:\4F\cherubin niccolo\Pilota\Pilota\obj\Debug\CorsaClandestina.csproj.CoreCompileInputs.cache
+F:\4F\cherubin niccolo\Pilota\Pilota\obj\Debug\Pilota.exe
+F:\4F\cherubin niccolo\Pilota\Pilota\obj\Debug\Pilota.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\bin\Debug\Pilota.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\bin\Debug\Pilota.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\bin\Debug\Pilota.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\obj\Debug\CorsaClandestina.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\obj\Debug\CorsaClandestina.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\obj\Debug\Pilota.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Gara\Pilota\obj\Debug\Pilota.pdb
