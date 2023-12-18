@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,29 +9,23 @@ namespace CorsaClandestina
 {
     internal class Pilota
     {
-        string nome, cognome;        
+        string nome, cognome;
         public Pilota() { }
         public Pilota(string nome, string cognome)
         {
             this.nome = nome;
             this.cognome = cognome;
-            
+
         }
-        public void SetNome(string nome)
+        public string Nome
         {
-            this.nome = nome;
+            get { return this.nome; }
+            set { this.nome = value; }
         }
-        public string GetNome()
+        public string Cognome
         {
-            return this.nome;
-        }
-        public void SetCognome(string cognome)
-        {
-            this.cognome = cognome;
-        }
-        public string GetCognome()
-        {
-            return this.cognome;
+            get { return this.cognome;}
+            set { this.cognome = value; }
         }        
         public string StampaPilota()
         {

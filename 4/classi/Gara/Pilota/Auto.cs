@@ -16,13 +16,11 @@ namespace CorsaClandestina
             this.scuderia = scuderia;
             this.pilota = pilota;
         }
-        public void SetScuderia(string scuderia)
+        
+        public string Scuderia
         {
-            this.scuderia = scuderia;
-        }
-        public string GetScuderia()
-        {
-            return this.scuderia;
+            get { return this.scuderia; }
+            set { this.scuderia = value;}
         }        
         public string GetAuto()
         {

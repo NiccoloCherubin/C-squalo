@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auto.cs" />
+    <Compile Include="Cronometro.cs" />
     <Compile Include="Gara.cs" />
     <Compile Include="Pilota.cs" />
     <Compile Include="Program.cs" />

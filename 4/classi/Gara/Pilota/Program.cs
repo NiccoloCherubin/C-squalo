@@ -13,7 +13,7 @@ namespace CorsaClandestina
         {
             //creazion gara
             Gara mondiale = new Gara();
-            mondiale.SetNome("mondiale");
+            mondiale.Nome = "mondiale";
             //valori di default
             mondiale.AggiungiAuto(new Auto("Ferrari", new Pilota("Armando", "Anescus")));
             mondiale.AggiungiAuto(new Auto("Mercedes", new Pilota("Matteo", "Beccari")));
@@ -69,7 +69,8 @@ namespace CorsaClandestina
                     break;
                 case 2:
                     //gareggia                    
-                    Console.WriteLine($"Ha vinto {mondiale.GetLista()[mondiale.SetRisultato()].GetAuto()}");
+                    Console.WriteLine($"Ha vinto {mondiale.GetLista()[mondiale.SetRisultato()].GetAuto()} " +
+                        $"con tmepo: {mondiale.Cronometro.GeneraTempo()}");
                     break;
             }
             Console.WriteLine("Premere invio per continuare");
