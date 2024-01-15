@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.pdb

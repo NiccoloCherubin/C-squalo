@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RipassoItinere", "RipassoItinere\RipassoItinere.csproj", "{C0031927-5DCB-4732-998A-A68BF53BB5BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0031927-5DCB-4732-998A-A68BF53BB5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0031927-5DCB-4732-998A-A68BF53BB5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0031927-5DCB-4732-998A-A68BF53BB5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0031927-5DCB-4732-998A-A68BF53BB5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928D3488-C684-433C-A0D4-8F5036DD59C6}
+	EndGlobalSection
+EndGlobal
