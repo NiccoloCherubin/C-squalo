@@ -11,16 +11,24 @@ namespace RipassoItinere2
     {        
         List<Auto> parcoMacchine;
         string nome, autorizzazione;
-        int nElementi;
+        static int codiceAuto;
         public Flotta()
         {
             autorizzazione = Ministero.Autorizzazione(); // ministero genera autorizzazione in automatico
             parcoMacchine = new List<Auto>();
         }
+        public string Autorizzazione
+        {
+            get { return autorizzazione; }
+        }
         public string Nome
         {
             set { autorizzazione = value; }
             get { return nome; }
+        }
+        public int NElementi
+        {
+            get { return parcoMacchine.Count; }
         }
         public void Aggiungi(Auto auto)
         {
@@ -37,10 +45,27 @@ namespace RipassoItinere2
         public string StampaAuto(Auto auto)
         {
             return auto.ToString();
-        }
-        public int NElementi
+        }        
+        public Auto TrovaDaTarga(string targa)
         {
-            get { return nElementi; }
+            if (!parcoMacchine.Exists(x => x.Targa == targa))
+            {
+                throw new Exception("L'auto non esiste");
+            }
+            return parcoMacchine.Find(x => x.Targa == targa);            
+        }        
+        public List<Auto> MacchineConNumeroPosti(NumeroPosti posti)
+        {
+            if (!parcoMacchine.Exists(x => x.numeroPosti == posti))
+            {
+                throw new Exception("Non esiste nessuna macchina con quel numero di posti");
+            }
+            return parcoMacchine.FindAll(x=> x.numeroPosti == posti);
+        }
+        public static int SetCodiceAuto()
+        {
+            codiceAuto++;
+            return codiceAuto;
         }
     }
 }

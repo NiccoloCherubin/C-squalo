@@ -12,3 +12,10 @@ F:\4F\cherubin niccolo\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2
 F:\4F\cherubin niccolo\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.csproj.CoreCompileInputs.cache
 F:\4F\cherubin niccolo\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.exe
 F:\4F\cherubin niccolo\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.pdb
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.exe.config
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.exe
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\bin\Debug\RipassoItinere2.pdb
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.csproj.AssemblyReference.cache
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.exe
+C:\Users\Niccolo\Downloads\RipassoItinere2\RipassoItinere2\obj\Debug\RipassoItinere2.pdb

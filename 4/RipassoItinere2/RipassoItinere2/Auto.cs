@@ -14,35 +14,15 @@ namespace RipassoItinere2
             return String.Format($"marca: {marca} modello: {modello} posti: {Posti} targa: {targa} codice: {codice}");
         }
         string marca, modello, targa;
-        int codice = 0;
+        int codice;
         NumeroPosti Posti;
-        public Auto()
-        {
-            codice++;
-            targa = Ministero.Targa();
-        }
         public Auto(string marca, string modello, NumeroPosti numeroPosti)
         {
             this.marca = marca;
             this.modello = modello;
             targa = Ministero.Targa();
-            codice++;
             this.Posti = numeroPosti;
-        }
-        public string Marca
-        {
-            set { marca = value; }
-            get { return marca; }
-        }
-        public string Modello
-        {
-            set { modello = value; }
-            get { return modello; }
-        }
-        public int Codice
-        {
-            private set { codice = value; } // l'utente non può modificarlo
-            get { return codice; }
+            codice = Flotta.SetCodiceAuto();
         }
         public NumeroPosti numeroPosti
         {
@@ -53,8 +33,20 @@ namespace RipassoItinere2
         {
             get { return targa; }
         }
-        
-
+        public string Marca
+        {
+            get { return marca; }
+            set { marca = value; }
+        }
+        public string Modello
+        {
+            get { return modello; }
+            set { modello = value; }
+        }
+        public int Codice
+        {
+            get { return codice; }
+        }
 
     }
 }

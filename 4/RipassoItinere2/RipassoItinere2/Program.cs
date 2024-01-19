@@ -49,7 +49,6 @@ namespace RipassoItinere2
         }
         static void VerificaScelta(int scelta, Flotta flotta)
         {
-            int indice;
             switch (scelta)
             {
 
@@ -76,14 +75,13 @@ namespace RipassoItinere2
                     if (flotta.NElementi != 0) // verifico la lista sia vuota
                     {
                         Console.WriteLine("ELIMINAZIONE AUTO");
-                        indice = Indice(flotta, InserimentoStringa("targa"));
-                        if (indice != -1)
+                        try
                         {
-                            flotta.EliminaAuto(flotta.CopiaLista()[indice]);
+                            flotta.EliminaAuto(flotta.TrovaDaTarga(InserimentoStringa("targa")));
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            Console.WriteLine("La macchina non esiste");
+                            Console.WriteLine(ex.Message);
                         }
                     }
                     else
@@ -96,15 +94,15 @@ namespace RipassoItinere2
                     if (flotta.NElementi != 0) // verifico la lista sia vuota
                     {
                         Console.WriteLine("VISUALIZZA AUTO CON RICERCA");
-                        indice = Indice(flotta, InserimentoStringa("targa"));
-                        if (indice != -1)
+                        try
                         {
-                            Console.WriteLine(flotta.CopiaLista()[indice].ToString());
+                            flotta.TrovaDaTarga(InserimentoStringa("targa")).ToString();
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            Console.WriteLine("La macchina non esiste");
+                            Console.WriteLine(ex.Message);
                         }
+
                     }
                     break;
                 case 4:
@@ -113,13 +111,13 @@ namespace RipassoItinere2
                     if (flotta.NElementi != 0) // verifico la lista sia vuota
                     {
                         choice = (NumeroPosti)Menu(Enum.GetNames(typeof(NumeroPosti)), "NUMERO POSTI");
-                        if (flotta.CopiaLista().Exists(x => x.numeroPosti == choice))
+                        try
                         {
-                            flotta.CopiaLista().FindAll(x => x.numeroPosti == choice).ForEach(x => Console.WriteLine(x.ToString()));
+                            flotta.MacchineConNumeroPosti(choice).ForEach(x => Console.WriteLine(x.ToString()));
                         }
-                        else
+                        catch (Exception ex)
                         {
-                            Console.WriteLine("Non esiste nessuna macchina con quel numero di posti");
+                            Console.WriteLine(ex.Message);
                         }
                     }
                     else
@@ -145,7 +143,14 @@ namespace RipassoItinere2
                     break;
                 case 6:
                     // visualizza log
-                    LeggiLog(path);
+                    try
+                    {
+                        LeggiLog(path);
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Non c'è log odierno");
+                    }
                     break;
                 case 7:
                     //tutti i log
@@ -179,17 +184,7 @@ namespace RipassoItinere2
             }
             return stringa;
         }
-        static int Indice(Flotta flotta, string targa)
-        {
-            if (flotta.CopiaLista().Exists(x => x.Targa == targa))
-            {
-                return flotta.CopiaLista().FindIndex(x => x.Targa == targa);
-            }
-            else
-            {
-                return -1; //la macchina non è presente nella lista
-            }
-        }
+
         static void ScriviLog(string path, string stringa)
         {
             // ogni stringa accodata a quella prima
@@ -208,6 +203,7 @@ namespace RipassoItinere2
         }
         static void LeggiLog(string path)
         {
+
             StreamReader fileLog = new StreamReader(path);
             string linea;
             linea = fileLog.ReadLine();
