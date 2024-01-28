@@ -41,11 +41,7 @@ namespace RipassoItinere2
         public void EliminaAuto(Auto auto)
         {
             parcoMacchine.Remove(auto);
-        }
-        public string StampaAuto(Auto auto)
-        {
-            return auto.ToString();
-        }        
+        }           
         public Auto TrovaDaTarga(string targa)
         {
             if (!parcoMacchine.Exists(x => x.Targa == targa))

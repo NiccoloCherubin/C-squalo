@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Tiro_a_segno.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CIAO" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">256, 256</Value>
+    </Setting>
+    <Setting Name="Depth" Type="System.Windows.Forms.ColorDepth" Scope="User">
+      <Value Profile="(Default)">Depth32Bit</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

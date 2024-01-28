@@ -1,0 +1,30 @@
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe.config
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\bin\Debug\VisualeForms.pdb
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.AssemblyReference.cache
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Visuale.resources
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Properties.Resources.resources
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.GenerateResource.cache
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.CoreCompileInputs.cache
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.exe
+\\INFORMATICA201\Concorso docenti\VisualeForms\VisualeForms\obj\Debug\VisualeForms.pdb
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe.config
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\bin\Debug\VisualeForms.pdb
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.AssemblyReference.cache
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Visuale.resources
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Properties.Resources.resources
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.GenerateResource.cache
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.CoreCompileInputs.cache
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.exe
+C:\Users\studente\Desktop\VisualeForms\VisualeForms\obj\Debug\VisualeForms.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\bin\Debug\VisualeForms.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\bin\Debug\VisualeForms.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Visuale.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.Properties.Resources.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.GenerateResource.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\VisualeForms\VisualeForms\obj\Debug\VisualeForms.pdb

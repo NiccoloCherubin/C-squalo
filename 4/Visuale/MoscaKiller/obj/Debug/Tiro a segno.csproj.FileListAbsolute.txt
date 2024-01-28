@@ -1,0 +1,92 @@
+C:\Users\Studente\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe.config
+C:\Users\Studente\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe
+C:\Users\Studente\Desktop\Tiro a segno\bin\Debug\Tiro a segno.pdb
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro a segno.exe
+C:\Users\Studente\Desktop\Tiro a segno\obj\Debug\Tiro a segno.pdb
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe.config
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\bin\Debug\Tiro a segno.pdb
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro a segno.exe
+C:\Users\Luca Spoladore\Desktop\Tiro a segno\obj\Debug\Tiro a segno.pdb
+C:\Users\Matteo\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe.config
+C:\Users\Matteo\Desktop\Tiro a segno\bin\Debug\Tiro a segno.exe
+C:\Users\Matteo\Desktop\Tiro a segno\bin\Debug\Tiro a segno.pdb
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.exe
+C:\Users\Matteo\Desktop\Tiro a segno\obj\Debug\Tiro a segno.pdb
+C:\Users\Matteo\Desktop\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+C:\Users\Matteo\Desktop\MoscaKiller\bin\Debug\Tiro a segno.exe
+C:\Users\Matteo\Desktop\MoscaKiller\bin\Debug\Tiro a segno.pdb
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.SuggestedBindingRedirects.cache
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.exe
+C:\Users\Matteo\Desktop\MoscaKiller\obj\Debug\Tiro a segno.pdb
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.pdb
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.exe
+D:\DESKTOP\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.pdb
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.pdb
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.exe
+C:\Users\ma77e\Desktop\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.pdb
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.exe
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\bin\Debug\Tiro a segno.pdb
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.exe
+D:\SCUOLA\3F\INFORMATICA\MoscaKiller\obj\Debug\Tiro a segno.pdb
+C:\Users\ma77e\Desktop\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+C:\Users\ma77e\Desktop\MoscaKiller\bin\Debug\Tiro a segno.exe
+C:\Users\ma77e\Desktop\MoscaKiller\bin\Debug\Tiro a segno.pdb
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro a segno.exe
+C:\Users\ma77e\Desktop\MoscaKiller\obj\Debug\Tiro a segno.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
