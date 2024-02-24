@@ -23,7 +23,7 @@ To run any of these projects locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine using `git clone https://github.com/NiccoloCherubin/C-squalo.git`
 2. Navigate to the project directory, for example: Alea-iacta-est
-3. 3. Open the solution file in Visual Studio or your preferred C# IDE.
+3. Open the solution file in Visual Studio or your preferred C# IDE.
 4. Build and run the project.
 
 ## Contributing
