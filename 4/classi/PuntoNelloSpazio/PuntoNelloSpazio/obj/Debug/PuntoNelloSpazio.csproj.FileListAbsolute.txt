@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\bin\Debug\PuntoNelloSpazio.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\bin\Debug\PuntoNelloSpazio.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\bin\Debug\PuntoNelloSpazio.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\obj\Debug\PuntoNelloSpazio.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\obj\Debug\PuntoNelloSpazio.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\obj\Debug\PuntoNelloSpazio.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PuntoNelloSpazio\PuntoNelloSpazio\obj\Debug\PuntoNelloSpazio.pdb

@@ -11,7 +11,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Timers;
-using System.Threading.Tasks;
 
 namespace Tiro_a_segno
 {
@@ -21,7 +20,9 @@ namespace Tiro_a_segno
         private System.Windows.Forms.Button btnClose;
         Point Posizione;
         Random XY;
-        int i = 0;
+        int errori = 0;
+        int uccisioni = 0;
+        int maxClicks;
         public Main()
         {
             InitializeComponent();
@@ -31,6 +32,8 @@ namespace Tiro_a_segno
             XY = new Random();
             Step.Enabled = false;
             btnMosca.Checked = true;
+            btnFacile.Checked = true;
+            labelUccisioni.Text = uccisioni.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -79,12 +82,15 @@ namespace Tiro_a_segno
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            button1_Click(sender, e);
             Step.Interval = 1000;
             Step.Enabled = true;
         }
 
         private void pcFigura_Click(object sender, EventArgs e)
         {
+            uccisioni++;
+            labelUccisioni.Text = uccisioni.ToString();
             // quando si clicca la figura
             Immagine immagine;
             string path = Environment.CurrentDirectory + "\\mosca_immagini";
@@ -108,11 +114,15 @@ namespace Tiro_a_segno
             pcFigura.Image = immagine.RitornoImmagine();
             // fermo il gioco
             Step.Enabled = false;
+            MessageBox.Show("colpito", "congrats");
+            button1_Click(sender, e);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             // Ripristina l'immagine alla versione normale facendo ripartire il gioco
+            uccisioni = 0;
             Immagine immagine;
             string path = Environment.CurrentDirectory + "\\mosca_immagini";
             if (btnFarfalla.Checked)
@@ -129,7 +139,61 @@ namespace Tiro_a_segno
             }
             pcFigura.Image = immagine.RitornoImmagine();
             Step.Enabled = true;
-            
+
+        }
+        private void btnFacile_CheckedChanged(object sender, EventArgs e)
+        {
+            errori = 0; // reset contaore
+            maxClicks = 5;
+            button1_Click(sender,  e);
+            //btn facile
+            Step.Interval = 1000;
+            Step.Enabled = true;
+        }
+
+        private void BtnMedio_CheckedChanged(object sender, EventArgs e)
+        {
+            errori = 0; // reset contaore
+            maxClicks = 7;
+            button1_Click(sender, e);
+            //btn medio
+            Step.Interval = 750;
+            Step.Enabled = true;
+        }
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            errori = 0; // reset contaore
+            maxClicks = 10;
+            button1_Click(sender, e);
+            //btn difficile
+            Step.Interval = 500;
+            Step.Enabled = true;
+        }
+
+        private void BtnEsperto_CheckedChanged(object sender, EventArgs e)
+        {
+            errori = 0; // reset contaore
+            maxClicks = 3; // uno esperto non sbaglia
+            button1_Click(sender, e);
+            //btn esperto            
+            Step.Interval = 200;
+            Step.Enabled = true;
+        }
+
+        private void pnlArea_Click(object sender, EventArgs e)
+        {
+            //cliccato lo sfondo
+            if(errori == maxClicks)
+            {
+                Step.Enabled = false; // ferma il gioco
+                MessageBox.Show($"Hai raggiunto il limite massimo di errori : {maxClicks} per questa difficoltà","GAME OVER", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            errori++; // aumento contatore di click sullo sfondo (utente manca la mosca)
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -41,9 +41,17 @@ namespace Tiro_a_segno
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnStart = new System.Windows.Forms.Button();
             this.btn_Reset = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnEsperto = new System.Windows.Forms.RadioButton();
+            this.BtnDifficile = new System.Windows.Forms.RadioButton();
+            this.BtnMedio = new System.Windows.Forms.RadioButton();
+            this.btnFacile = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelUccisioni = new System.Windows.Forms.Label();
             this.pnlArea.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcFigura)).BeginInit();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
@@ -72,6 +80,7 @@ namespace Tiro_a_segno
             this.pnlArea.Name = "pnlArea";
             this.pnlArea.Size = new System.Drawing.Size(823, 570);
             this.pnlArea.TabIndex = 1;
+            this.pnlArea.Click += new System.EventHandler(this.pnlArea_Click);
             this.pnlArea.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pcFigura
@@ -165,6 +174,7 @@ namespace Tiro_a_segno
             // 
             // btn_Reset
             // 
+            this.btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Reset.BackColor = System.Drawing.Color.Brown;
             this.btn_Reset.Location = new System.Drawing.Point(841, 545);
             this.btn_Reset.Name = "btn_Reset";
@@ -174,11 +184,101 @@ namespace Tiro_a_segno
             this.btn_Reset.UseVisualStyleBackColor = false;
             this.btn_Reset.Click += new System.EventHandler(this.button1_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.BtnEsperto);
+            this.groupBox1.Controls.Add(this.BtnDifficile);
+            this.groupBox1.Controls.Add(this.BtnMedio);
+            this.groupBox1.Controls.Add(this.btnFacile);
+            this.groupBox1.Location = new System.Drawing.Point(863, 187);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(124, 127);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Difficoltà";
+            // 
+            // BtnEsperto
+            // 
+            this.BtnEsperto.AutoSize = true;
+            this.BtnEsperto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BtnEsperto.Location = new System.Drawing.Point(13, 96);
+            this.BtnEsperto.Name = "BtnEsperto";
+            this.BtnEsperto.Size = new System.Drawing.Size(61, 17);
+            this.BtnEsperto.TabIndex = 3;
+            this.BtnEsperto.TabStop = true;
+            this.BtnEsperto.Text = "Esperto";
+            this.BtnEsperto.UseVisualStyleBackColor = false;
+            this.BtnEsperto.CheckedChanged += new System.EventHandler(this.BtnEsperto_CheckedChanged);
+            // 
+            // BtnDifficile
+            // 
+            this.BtnDifficile.AutoSize = true;
+            this.BtnDifficile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BtnDifficile.Location = new System.Drawing.Point(13, 73);
+            this.BtnDifficile.Name = "BtnDifficile";
+            this.BtnDifficile.Size = new System.Drawing.Size(59, 17);
+            this.BtnDifficile.TabIndex = 2;
+            this.BtnDifficile.TabStop = true;
+            this.BtnDifficile.Text = "Difficile";
+            this.BtnDifficile.UseVisualStyleBackColor = false;
+            this.BtnDifficile.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // BtnMedio
+            // 
+            this.BtnMedio.AutoSize = true;
+            this.BtnMedio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.BtnMedio.Location = new System.Drawing.Point(13, 50);
+            this.BtnMedio.Name = "BtnMedio";
+            this.BtnMedio.Size = new System.Drawing.Size(54, 17);
+            this.BtnMedio.TabIndex = 1;
+            this.BtnMedio.TabStop = true;
+            this.BtnMedio.Text = "Media";
+            this.BtnMedio.UseVisualStyleBackColor = false;
+            this.BtnMedio.CheckedChanged += new System.EventHandler(this.BtnMedio_CheckedChanged);
+            // 
+            // btnFacile
+            // 
+            this.btnFacile.AutoSize = true;
+            this.btnFacile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnFacile.Location = new System.Drawing.Point(11, 27);
+            this.btnFacile.Name = "btnFacile";
+            this.btnFacile.Size = new System.Drawing.Size(53, 17);
+            this.btnFacile.TabIndex = 0;
+            this.btnFacile.TabStop = true;
+            this.btnFacile.Text = "Facile";
+            this.btnFacile.UseVisualStyleBackColor = false;
+            this.btnFacile.CheckedChanged += new System.EventHandler(this.btnFacile_CheckedChanged);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(863, 343);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Uccisioni";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // labelUccisioni
+            // 
+            this.labelUccisioni.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelUccisioni.AutoSize = true;
+            this.labelUccisioni.Location = new System.Drawing.Point(922, 342);
+            this.labelUccisioni.Name = "labelUccisioni";
+            this.labelUccisioni.Size = new System.Drawing.Size(35, 13);
+            this.labelUccisioni.TabIndex = 18;
+            this.labelUccisioni.Text = "label2";
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(999, 594);
+            this.Controls.Add(this.labelUccisioni);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_Reset);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.groupBox2);
@@ -195,7 +295,10 @@ namespace Tiro_a_segno
             ((System.ComponentModel.ISupportInitialize)(this.pcFigura)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -211,6 +314,13 @@ namespace Tiro_a_segno
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btn_Reset;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton BtnDifficile;
+        private System.Windows.Forms.RadioButton BtnMedio;
+        private System.Windows.Forms.RadioButton btnFacile;
+        private System.Windows.Forms.RadioButton BtnEsperto;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelUccisioni;
     }
 }
 

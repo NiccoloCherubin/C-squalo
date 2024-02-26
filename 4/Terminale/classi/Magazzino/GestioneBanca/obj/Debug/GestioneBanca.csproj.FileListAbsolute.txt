@@ -1,0 +1,7 @@
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\bin\Debug\GestioneBanca.exe.config
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\bin\Debug\GestioneBanca.exe
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\bin\Debug\GestioneBanca.pdb
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\obj\Debug\GestioneBanca.csproj.AssemblyReference.cache
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\obj\Debug\GestioneBanca.csproj.CoreCompileInputs.cache
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\obj\Debug\GestioneBanca.exe
+C:\Users\studente\Desktop\Niccolò Cherubin\GestioneBanca\GestioneBanca\obj\Debug\GestioneBanca.pdb

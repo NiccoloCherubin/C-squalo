@@ -1,0 +1,10 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\bin\Debug\Persone-Studenti.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\bin\Debug\Persone-Studenti.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\bin\Debug\Persone-Studenti.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone-Studenti.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone_Studenti.Form1.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone_Studenti.Properties.Resources.resources
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone-Studenti.csproj.GenerateResource.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone-Studenti.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone-Studenti.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\Persone-Studenti\Persone-Studenti\obj\Debug\Persone-Studenti.pdb

@@ -90,3 +90,13 @@ C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\bin
 C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.pdb
 C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
 C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.AssemblyReference.cache
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro_a_segno.Main.resources
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro_a_segno.Properties.Resources.resources
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.GenerateResource.cache
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.csproj.CoreCompileInputs.cache
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.exe
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\obj\Debug\Tiro a segno.pdb
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.exe.config
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.exe
+C:\Users\studente\Downloads\C-squalo-main\4\Visuale\MoscaKiller\bin\Debug\Tiro a segno.pdb
