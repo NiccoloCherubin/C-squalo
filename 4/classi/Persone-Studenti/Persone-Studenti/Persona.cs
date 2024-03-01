@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,13 +9,14 @@ namespace Persone_Studenti
 {
     internal class Persona
     {
-        protected string nome { get; private set; }
-        protected string cognome { get; private set; }
-
-        public Persona(string nome, string cognome)
+        public string nome { get; private set; }
+        public string cognome { get; private set; }
+        public Image immagine { get; private set; }
+        public Persona(string nome, string cognome, Image immagine)
         {
             this.nome = nome;
             this.cognome = cognome;
+            this.immagine = immagine;
         }
         static public bool operator ==(Persona a, Persona b)
         {
