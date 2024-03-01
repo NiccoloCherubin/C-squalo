@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|solutionrelative:persone-studenti\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\persone-studenti\\persone-studenti\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\Persone-Studenti\\persone-studenti\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|solutionrelative:persone-studenti\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\persone-studenti\\persone-studenti\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\Persone-Studenti\\persone-studenti\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|solutionrelative:persone-studenti\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\persone-studenti\\persone-studenti\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\Persone-Studenti\\persone-studenti\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FEBACB2-84C3-4C2B-A493-5F37E1AE2D26}|Persone-Studenti\\Persone-Studenti.csproj|solutionrelative:persone-studenti\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -39,8 +39,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T14:15:43.506Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Persone-Studenti\\Persona.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAwwBoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T14:15:52.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-26T14:15:52.416Z"
             },
             {
               "$type": "Document",
@@ -83,7 +81,7 @@
               "RelativeDocumentMoniker": "Persone-Studenti\\Form1.cs",
               "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\Persone-Studenti\\Persone-Studenti\\Form1.cs",
               "RelativeToolTip": "Persone-Studenti\\Form1.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowFgAAAAAAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwFYAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T14:14:42.434Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\Persone-Studenti\\Persone-Studenti\\Form1.cs [Progettazione]",
               "RelativeToolTip": "Persone-Studenti\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T14:10:20.704Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2024-02-26T14:10:20.704Z"
             }
           ]
         }

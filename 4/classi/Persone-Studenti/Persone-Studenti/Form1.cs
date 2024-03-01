@@ -29,7 +29,7 @@ namespace Persone_Studenti
         {
             string nome = textBox1.Text, cognome = textBox2.Text;
 
-            if (String.IsNullOrEmpty(nome) || String.IsNullOrEmpty(cognome) || pictureBox1.Image != null)
+            if (String.IsNullOrEmpty(nome) || String.IsNullOrEmpty(cognome) || pictureBox1.Image == null)
             {
                 MessageBox.Show("Dati non validi", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -53,7 +53,7 @@ namespace Persone_Studenti
         {
             string nome = textBox1.Text, cognome = textBox2.Text;
 
-            if (String.IsNullOrEmpty(nome) || String.IsNullOrEmpty(cognome) || pictureBox1.Image != null)
+            if (String.IsNullOrEmpty(nome) || String.IsNullOrEmpty(cognome) || pictureBox1.Image == null)
             {
                 MessageBox.Show("Dati non validi", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
