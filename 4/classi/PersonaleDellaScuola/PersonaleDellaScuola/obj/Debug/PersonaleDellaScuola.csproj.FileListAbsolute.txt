@@ -1,0 +1,7 @@
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\bin\Debug\PersonaleDellaScuola.exe.config
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\bin\Debug\PersonaleDellaScuola.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\bin\Debug\PersonaleDellaScuola.pdb
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\obj\Debug\PersonaleDellaScuola.csproj.AssemblyReference.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\obj\Debug\PersonaleDellaScuola.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\obj\Debug\PersonaleDellaScuola.exe
+C:\Users\Niccolo\source\repos\NiccoloCherubin\C-squalo\4\classi\PersonaleDellaScuola\PersonaleDellaScuola\obj\Debug\PersonaleDellaScuola.pdb

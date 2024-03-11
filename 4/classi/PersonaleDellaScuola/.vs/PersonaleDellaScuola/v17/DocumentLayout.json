@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\personaledellascuola\\personaledellascuola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|solutionrelative:personaledellascuola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\personaledellascuola\\personaledellascuola\\impiegato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|solutionrelative:personaledellascuola\\impiegato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\personaledellascuola\\personaledellascuola\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|solutionrelative:personaledellascuola\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|c:\\users\\niccolo\\source\\repos\\niccolocherubin\\c-squalo\\4\\classi\\personaledellascuola\\personaledellascuola\\dipendente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5255D46-39E7-4503-B4DA-ABE13646A43C}|PersonaleDellaScuola\\PersonaleDellaScuola.csproj|solutionrelative:personaledellascuola\\dipendente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dipendente.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Dipendente.cs",
+              "RelativeDocumentMoniker": "PersonaleDellaScuola\\Dipendente.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Dipendente.cs",
+              "RelativeToolTip": "PersonaleDellaScuola\\Dipendente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:10:51.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Docente.cs",
+              "RelativeDocumentMoniker": "PersonaleDellaScuola\\Docente.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Docente.cs",
+              "RelativeToolTip": "PersonaleDellaScuola\\Docente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:09:12.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Impiegato.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Impiegato.cs",
+              "RelativeDocumentMoniker": "PersonaleDellaScuola\\Impiegato.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Impiegato.cs",
+              "RelativeToolTip": "PersonaleDellaScuola\\Impiegato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:09:02.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Program.cs",
+              "RelativeDocumentMoniker": "PersonaleDellaScuola\\Program.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\source\\repos\\NiccoloCherubin\\C-squalo\\4\\classi\\PersonaleDellaScuola\\PersonaleDellaScuola\\Program.cs",
+              "RelativeToolTip": "PersonaleDellaScuola\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T15:08:42.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
