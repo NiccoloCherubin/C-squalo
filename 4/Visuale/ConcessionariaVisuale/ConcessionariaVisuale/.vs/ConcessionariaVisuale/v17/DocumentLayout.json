@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|c:\\users\\niccolo\\downloads\\concessionariavisuale\\concessionariavisuale\\concessionariavisuale\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|solutionrelative:concessionariavisuale\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\concessionariavisuale\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|solutionrelative:concessionariavisuale\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\concessionariavisuale\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|solutionrelative:concessionariavisuale\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\concessionariavisuale\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|solutionrelative:concessionariavisuale\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\concessionariavisuale\\veicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9A87FC-B356-42ED-B03B-96D40EC2D026}|ConcessionariaVisuale\\ConcessionariaVisuale.csproj|solutionrelative:concessionariavisuale\\veicolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Veicolo.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Veicolo.cs",
+              "RelativeDocumentMoniker": "ConcessionariaVisuale\\Veicolo.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Veicolo.cs",
+              "RelativeToolTip": "ConcessionariaVisuale\\Veicolo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T12:43:11.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Auto.cs",
+              "RelativeDocumentMoniker": "ConcessionariaVisuale\\Auto.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Auto.cs",
+              "RelativeToolTip": "ConcessionariaVisuale\\Auto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T12:43:11.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Moto.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Moto.cs",
+              "RelativeDocumentMoniker": "ConcessionariaVisuale\\Moto.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Moto.cs",
+              "RelativeToolTip": "ConcessionariaVisuale\\Moto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T12:43:11.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Form1.cs",
+              "RelativeDocumentMoniker": "ConcessionariaVisuale\\Form1.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Form1.cs",
+              "RelativeToolTip": "ConcessionariaVisuale\\Form1.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwJsAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T12:43:11.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Form1.cs",
+              "RelativeDocumentMoniker": "ConcessionariaVisuale\\Form1.cs",
+              "ToolTip": "C:\\Users\\Niccolo\\Downloads\\ConcessionariaVisuale\\ConcessionariaVisuale\\ConcessionariaVisuale\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "ConcessionariaVisuale\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T12:43:11.554Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

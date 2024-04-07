@@ -1,0 +1,20 @@
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.exe.config
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.exe
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.pdb
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.AssemblyReference.cache
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.Form1.resources
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.Properties.Resources.resources
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.GenerateResource.cache
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.CoreCompileInputs.cache
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.exe
+F:\4F\cherubin niccolo\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.pdb
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.exe.config
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.exe
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\bin\Debug\ConcessionariaVisuale.pdb
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.AssemblyReference.cache
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.Form1.resources
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.Properties.Resources.resources
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.GenerateResource.cache
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.csproj.CoreCompileInputs.cache
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.exe
+C:\Users\Niccolo\Downloads\ConcessionariaVisuale\ConcessionariaVisuale\ConcessionariaVisuale\obj\Debug\ConcessionariaVisuale.pdb
